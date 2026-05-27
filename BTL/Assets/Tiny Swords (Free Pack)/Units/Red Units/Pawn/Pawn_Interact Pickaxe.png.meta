@@ -129,7 +129,7 @@ TextureImporter:
         width: 60
         height: 76
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -151,7 +151,7 @@ TextureImporter:
         width: 66
         height: 77
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -173,7 +173,7 @@ TextureImporter:
         width: 93
         height: 72
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -187,37 +187,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pawn_Interact Pickaxe_3
-      rect:
-        serializedVersion: 2
-        x: 642
-        y: 97
-        width: 14
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e3af2eb148935b690800000000000000
-      internalID: -7587094757669406146
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Pawn_Interact Pickaxe_4
       rect:
         serializedVersion: 2
-        x: 654
+        x: 639
         y: 56
-        width: 62
+        width: 91
         height: 69
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -231,28 +209,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pawn_Interact Pickaxe_5
-      rect:
-        serializedVersion: 2
-        x: 700
-        y: 59
-        width: 29
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1e7c543482aba1f30800000000000000
-      internalID: 4547151455874041825
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Pawn_Interact Pickaxe_6
       rect:
         serializedVersion: 2
@@ -261,7 +217,7 @@ TextureImporter:
         width: 69
         height: 73
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -283,7 +239,7 @@ TextureImporter:
         width: 53
         height: 74
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -300,7 +256,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8fc2ced7677471544bee4e59fb0d41e8
     internalID: 0
     vertices: []
     indices: 
