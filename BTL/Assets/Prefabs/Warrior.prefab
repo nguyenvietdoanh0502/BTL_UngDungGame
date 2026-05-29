@@ -145,7 +145,10 @@ MonoBehaviour:
       m_Flags: 8
     m_Flags: 0
   speed: 5
-  maxHealth: 5
+  maxHealth: 100
+  maxStamina: 100
+  guardStaminaCost: 15
+  staminaRecoverPerSecond: 3
   timeInvincible: 2
   blinkInterval: 0.1
   blinkAlpha: 0.35
@@ -167,6 +170,31 @@ MonoBehaviour:
       m_Action: Launch
       m_Flags: 0
     m_Flags: 0
+  GuardAction:
+    m_Name: Guard
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 4d072d97-da01-43d5-9d82-1467e7d46039
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 777a7774-f985-40b7-a247-27c1bfb244ff
+      m_Path: <Mouse>/rightButton
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Guard
+      m_Flags: 0
+    m_Flags: 0
+  attackSound: {fileID: 8300000, guid: dd18d8697dabdf14aab4b273ccafcbe1, type: 3}
+  attackSoundVolume: 0.324
+  guardBlockSound: {fileID: 8300000, guid: d4c7870d6a9d1d045b79e2b5060d698e, type: 3}
+  guardBlockSoundVolume: 0.432
+  guardDuration: 0.8
+  guardInvincibleDuration: 0.8
+  launchCooldown: 0.5
+  launchDelay: 0
 --- !u!50 &5484014566996857640
 Rigidbody2D:
   serializedVersion: 5
