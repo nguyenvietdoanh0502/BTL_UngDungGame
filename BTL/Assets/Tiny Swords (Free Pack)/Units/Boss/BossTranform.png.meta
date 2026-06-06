@@ -1,0 +1,556 @@
+fileFormatVersion: 2
+guid: f3864670298b41548945b4329bb8c44d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -187237268355713908
+    second: BossTranform_0
+  - first:
+      213: -8150868704136200527
+    second: BossTranform_1
+  - first:
+      213: -4147383450324977844
+    second: BossTranform_2
+  - first:
+      213: 289668852839148607
+    second: BossTranform_3
+  - first:
+      213: -1108559121894386856
+    second: BossTranform_4
+  - first:
+      213: 4520105687561102036
+    second: BossTranform_5
+  - first:
+      213: 2225904433461157949
+    second: BossTranform_6
+  - first:
+      213: -6589272082650776834
+    second: BossTranform_7
+  - first:
+      213: 4160325091241353529
+    second: BossTranform_8
+  - first:
+      213: -8249743343077167379
+    second: BossTranform_9
+  - first:
+      213: -8976187395129782040
+    second: BossTranform_10
+  - first:
+      213: -7193777297688569931
+    second: BossTranform_11
+  - first:
+      213: -6974890754021762762
+    second: BossTranform_12
+  - first:
+      213: -2843319085616818916
+    second: BossTranform_13
+  - first:
+      213: -3961806414406722075
+    second: BossTranform_14
+  - first:
+      213: 8171095695337298570
+    second: BossTranform_15
+  - first:
+      213: 9021573091038290311
+    second: BossTranform_16
+  - first:
+      213: 550665891171617333
+    second: BossTranform_17
+  - first:
+      213: -1354601356472999405
+    second: BossTranform_18
+  - first:
+      213: -240535185279860746
+    second: BossTranform_19
+  - first:
+      213: -1154946480636268078
+    second: BossTranform_20
+  - first:
+      213: 9164918729281749576
+    second: BossTranform_21
+  - first:
+      213: 2581570962501908988
+    second: BossTranform_22
+  - first:
+      213: 5280674124553140260
+    second: BossTranform_23
+  - first:
+      213: 8629977584647797058
+    second: BossTranform_24
+  - first:
+      213: -260901099256430076
+    second: BossTranform_25
+  - first:
+      213: -6540824890724707156
+    second: BossTranform_26
+  - first:
+      213: 9170985461448620279
+    second: BossTranform_27
+  - first:
+      213: -5187697190043534883
+    second: BossTranform_28
+  - first:
+      213: 1952493249375641738
+    second: BossTranform_29
+  - first:
+      213: -3107589381906986660
+    second: BossTranform_30
+  - first:
+      213: 4778672298170964551
+    second: BossTranform_31
+  - first:
+      213: -6612818344009443175
+    second: BossTranform_32
+  - first:
+      213: 2396363310310749043
+    second: BossTranform_33
+  - first:
+      213: -3596731284015644124
+    second: BossTranform_34
+  - first:
+      213: 7241107519682003763
+    second: BossTranform_35
+  - first:
+      213: 816372113375316991
+    second: BossTranform_36
+  - first:
+      213: 9018499295281932155
+    second: BossTranform_37
+  - first:
+      213: 5539680597704877858
+    second: BossTranform_38
+  - first:
+      213: -6645376044804930734
+    second: BossTranform_39
+  - first:
+      213: 7465157055913117221
+    second: BossTranform_40
+  - first:
+      213: 1573995947406769287
+    second: BossTranform_41
+  - first:
+      213: -2766268766437208339
+    second: BossTranform_42
+  - first:
+      213: -8071603202170298434
+    second: BossTranform_43
+  - first:
+      213: 4512924794087616474
+    second: BossTranform_44
+  - first:
+      213: 8911684298117967382
+    second: BossTranform_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BossTranform_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 532
+        width: 353
+        height: 266
+      alignment: 9
+      pivot: {x: 0.4972673, y: 0.1626839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8471fa42bcc66df0800000000000000
+      internalID: -187237268355713908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossTranform_1
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 532
+        width: 353
+        height: 266
+      alignment: 9
+      pivot: {x: 0.4972673, y: 0.1626839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1befc17491c42ee80800000000000000
+      internalID: -8150868704136200527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossTranform_2
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 532
+        width: 353
+        height: 266
+      alignment: 9
+      pivot: {x: 0.4972673, y: 0.1626839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47bb08c9b88176c0800000000000000
+      internalID: -4147383450324977844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossTranform_3
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 532
+        width: 353
+        height: 266
+      alignment: 9
+      pivot: {x: 0.4972673, y: 0.1626839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ce8f3794c150400800000000000000
+      internalID: 289668852839148607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossTranform_4
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 532
+        width: 353
+        height: 266
+      alignment: 9
+      pivot: {x: 0.4972673, y: 0.1626839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85357fe1a5b9d90f0800000000000000
+      internalID: -1108559121894386856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossTranform_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266
+        width: 353
+        height: 266
+      alignment: 9
+      pivot: {x: 0.4972673, y: 0.1626839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d26d4e9c24aabe30800000000000000
+      internalID: 4520105687561102036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossTranform_6
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 266
+        width: 353
+        height: 266
+      alignment: 9
+      pivot: {x: 0.4972673, y: 0.1626839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d306b64f94004ee10800000000000000
+      internalID: 2225904433461157949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossTranform_7
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 266
+        width: 353
+        height: 266
+      alignment: 9
+      pivot: {x: 0.4972673, y: 0.1626839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efab339c3f33e84a0800000000000000
+      internalID: -6589272082650776834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossTranform_8
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 266
+        width: 353
+        height: 266
+      alignment: 9
+      pivot: {x: 0.4972673, y: 0.1626839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931e59dc0a17cb930800000000000000
+      internalID: 4160325091241353529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossTranform_9
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 266
+        width: 353
+        height: 266
+      alignment: 9
+      pivot: {x: 0.4972673, y: 0.1626839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deeedb37326038d80800000000000000
+      internalID: -8249743343077167379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossTranform_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 353
+        height: 266
+      alignment: 9
+      pivot: {x: 0.4972673, y: 0.1626839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e053fb3f1d2e6380800000000000000
+      internalID: -8976187395129782040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossTranform_11
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 0
+        width: 353
+        height: 266
+      alignment: 9
+      pivot: {x: 0.4972673, y: 0.1626839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7d00a79a19a2c90800000000000000
+      internalID: -7193777297688569931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossTranform_12
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 0
+        width: 353
+        height: 266
+      alignment: 9
+      pivot: {x: 0.4972673, y: 0.1626839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639506350d5343f90800000000000000
+      internalID: -6974890754021762762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 66edd64c0dcd3e34ea14ec091d07c986
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":3.0},"gridSpriteSize":{"x":353.0,"y":266.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.49726730585098269,"y":0.16268390417099},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      BossTranform_0: -187237268355713908
+      BossTranform_1: -8150868704136200527
+      BossTranform_10: -8976187395129782040
+      BossTranform_11: -7193777297688569931
+      BossTranform_12: -6974890754021762762
+      BossTranform_2: -4147383450324977844
+      BossTranform_3: 289668852839148607
+      BossTranform_4: -1108559121894386856
+      BossTranform_5: 4520105687561102036
+      BossTranform_6: 2225904433461157949
+      BossTranform_7: -6589272082650776834
+      BossTranform_8: 4160325091241353529
+      BossTranform_9: -8249743343077167379
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: c5438118b5b4d3041b0df40a7fe7ce66
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8981247684576609471
+    second: BossEnemy_idle_0
+  - first:
+      213: -1174491184154936860
+    second: BossEnemy_idle_1
+  - first:
+      213: 190655463719909300
+    second: BossEnemy_idle_2
+  - first:
+      213: 6170320015937632611
+    second: BossEnemy_idle_3
+  - first:
+      213: 2149470143219207204
+    second: BossEnemy_idle_4
+  - first:
+      213: 4136281031225635579
+    second: BossEnemy_idle_5
+  - first:
+      213: -3717335957700228065
+    second: BossEnemy_idle_6
+  - first:
+      213: 1420366159882023861
+    second: BossEnemy_idle_7
+  - first:
+      213: 2540965645972235919
+    second: BossEnemy_idle_8
+  - first:
+      213: 806084325859357215
+    second: BossEnemy_idle_9
+  - first:
+      213: -4032542175945463231
+    second: BossEnemy_idle_10
+  - first:
+      213: 4797739711593884050
+    second: BossEnemy_idle_11
+  - first:
+      213: 1914012824833133253
+    second: BossEnemy_idle_12
+  - first:
+      213: -5235764197135925376
+    second: BossEnemy_idle_13
+  - first:
+      213: 2285297490913234970
+    second: BossEnemy_idle_14
+  - first:
+      213: 2506799069144987784
+    second: BossEnemy_idle_15
+  - first:
+      213: 5248746815840973892
+    second: BossEnemy_idle_16
+  - first:
+      213: 6605811397511168683
+    second: BossEnemy_idle_17
+  - first:
+      213: 9105490660317504551
+    second: BossEnemy_idle_18
+  - first:
+      213: -7355069971776383706
+    second: BossEnemy_idle_19
+  - first:
+      213: -5037650576154282500
+    second: BossEnemy_idle_20
+  - first:
+      213: -8570464810368527961
+    second: BossEnemy_idle_21
+  - first:
+      213: 2371637669367722737
+    second: BossEnemy_idle_22
+  - first:
+      213: -8252522445681633562
+    second: BossEnemy_idle_23
+  - first:
+      213: -3493466307910159251
+    second: BossEnemy_idle_24
+  - first:
+      213: -5213909861165334188
+    second: BossEnemy_idle_25
+  - first:
+      213: 7621415496578137685
+    second: BossEnemy_idle_26
+  - first:
+      213: -626277590055374437
+    second: BossEnemy_idle_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BossEnemy_idle_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 198
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14bf209c0d23c5380800000000000000
+      internalID: -8981247684576609471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 198
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9fd90ad7e53bfe0800000000000000
+      internalID: -1174491184154936860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 198
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b73385522855a200800000000000000
+      internalID: 190655463719909300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 198
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369f17cdc5161a550800000000000000
+      internalID: 6170320015937632611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_4
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 198
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c83e5f4b374dd10800000000000000
+      internalID: 2149470143219207204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_5
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 198
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2f365dea5076930800000000000000
+      internalID: 4136281031225635579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_6
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 198
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ccd7a44ae596cc0800000000000000
+      internalID: -3717335957700228065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_7
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 137
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3f0ca3f7726b310800000000000000
+      internalID: 1420366159882023861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 137
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8665aadac2534320800000000000000
+      internalID: 2540965645972235919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_9
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 137
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f127bdd6c69cf2b00800000000000000
+      internalID: 806084325859357215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_10
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 137
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a6dfc91488908c0800000000000000
+      internalID: -4032542175945463231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_11
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 137
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299a65229def49240800000000000000
+      internalID: 4797739711593884050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_12
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 137
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca88b7f580ff8a10800000000000000
+      internalID: 1914012824833133253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_13
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 137
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f3106f334d657b0800000000000000
+      internalID: -5235764197135925376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_14
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 69
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1099ffb5f107bf10800000000000000
+      internalID: 2285297490913234970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_15
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 69
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888baa7c870f9c220800000000000000
+      internalID: 2506799069144987784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_16
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 69
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444f9228b6b47d840800000000000000
+      internalID: 5248746815840973892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_17
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 69
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba241e9877e8cab50800000000000000
+      internalID: 6605811397511168683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_18
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 69
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724acd933833d5e70800000000000000
+      internalID: 9105490660317504551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_19
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 69
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625502a54da8de990800000000000000
+      internalID: -7355069971776383706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_20
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 69
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf538c9dd7ba61ab0800000000000000
+      internalID: -5037650576154282500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_21
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 5
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a19ff9c9a79f0980800000000000000
+      internalID: -8570464810368527961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_22
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 5
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2399215efb9e020800000000000000
+      internalID: 2371637669367722737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_23
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 5
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e655343f86297d80800000000000000
+      internalID: -8252522445681633562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_24
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 5
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d643832f6e6b48fc0800000000000000
+      internalID: -3493466307910159251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_25
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 5
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45185521b9874a7b0800000000000000
+      internalID: -5213909861165334188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_26
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 5
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e723f9305b4c960800000000000000
+      internalID: 7621415496578137685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossEnemy_idle_27
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 5
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9136f999d30f47f0800000000000000
+      internalID: -626277590055374437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BossEnemy_idle_0: -8981247684576609471
+      BossEnemy_idle_1: -1174491184154936860
+      BossEnemy_idle_10: -4032542175945463231
+      BossEnemy_idle_11: 4797739711593884050
+      BossEnemy_idle_12: 1914012824833133253
+      BossEnemy_idle_13: -5235764197135925376
+      BossEnemy_idle_14: 2285297490913234970
+      BossEnemy_idle_15: 2506799069144987784
+      BossEnemy_idle_16: 5248746815840973892
+      BossEnemy_idle_17: 6605811397511168683
+      BossEnemy_idle_18: 9105490660317504551
+      BossEnemy_idle_19: -7355069971776383706
+      BossEnemy_idle_2: 190655463719909300
+      BossEnemy_idle_20: -5037650576154282500
+      BossEnemy_idle_21: -8570464810368527961
+      BossEnemy_idle_22: 2371637669367722737
+      BossEnemy_idle_23: -8252522445681633562
+      BossEnemy_idle_24: -3493466307910159251
+      BossEnemy_idle_25: -5213909861165334188
+      BossEnemy_idle_26: 7621415496578137685
+      BossEnemy_idle_27: -626277590055374437
+      BossEnemy_idle_3: 6170320015937632611
+      BossEnemy_idle_4: 2149470143219207204
+      BossEnemy_idle_5: 4136281031225635579
+      BossEnemy_idle_6: -3717335957700228065
+      BossEnemy_idle_7: 1420366159882023861
+      BossEnemy_idle_8: 2540965645972235919
+      BossEnemy_idle_9: 806084325859357215
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

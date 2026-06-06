@@ -49,17 +49,23 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.12f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\NPCController.cs" />
-    <Compile Include="Assets\Scripts\BatSpawnTrigger.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\BatController.cs" />
-    <Compile Include="Assets\Scripts\EnemyKillBlockUnlocker.cs" />
-    <Compile Include="Assets\Scripts\MissionCanvasHandler.cs" />
-    <Compile Include="Assets\Scripts\UIHealthBarHandle.cs" />
-    <Compile Include="Assets\Scripts\EnemyController.cs" />
-    <Compile Include="Assets\Scripts\SlimeSpawnTrigger.cs" />
-    <Compile Include="Assets\Scripts\SlimeController.cs" />
-    <Compile Include="Assets\Scripts\Projectile.cs" />
+    <Compile Include="Assets\Scripts\ScriptsVersion1\Projectile.cs" />
+    <Compile Include="Assets\Scripts\ScriptsVersion1\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\ScriptsVersion1\BossController.cs" />
+    <Compile Include="Assets\Scripts\ScriptsVersion1\BossProjectile.cs" />
+    <Compile Include="Assets\Scripts\ScriptsVersion1\EnemyKillBlockUnlocker.cs" />
+    <Compile Include="Assets\Scripts\ScriptsVersion1\SlimeSpawnTrigger.cs" />
+    <Compile Include="Assets\Scripts\ScriptsVersion1\UIHealthBarHandle.cs" />
+    <Compile Include="Assets\Scripts\ScriptsVersion1\BossAppearCanvasHandler.cs" />
+    <Compile Include="Assets\Scripts\ScriptsVersion1\GameAudioUtility.cs" />
+    <Compile Include="Assets\Scripts\ScriptsVersion1\UIDeathController.cs" />
+    <Compile Include="Assets\Scripts\ScriptsVersion1\BatSpawnTrigger.cs" />
+    <Compile Include="Assets\Scripts\ScriptsVersion1\NPCController.cs" />
+    <Compile Include="Assets\Scripts\ScriptsVersion1\SlimeController.cs" />
+    <Compile Include="Assets\Scripts\ScriptsVersion1\BossUIHandle.cs" />
+    <Compile Include="Assets\Scripts\ScriptsVersion1\EnemyController.cs" />
+    <Compile Include="Assets\Scripts\ScriptsVersion1\BatController.cs" />
+    <Compile Include="Assets\Scripts\ScriptsVersion1\MissionCanvasHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

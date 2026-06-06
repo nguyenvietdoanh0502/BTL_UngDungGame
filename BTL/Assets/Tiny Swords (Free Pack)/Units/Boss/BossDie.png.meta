@@ -1,0 +1,740 @@
+fileFormatVersion: 2
+guid: 4b35331aece6fd54e8502654cd0f1bd5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2382270314679628693
+    second: BossDie_0
+  - first:
+      213: 5749426522013665469
+    second: BossDie_1
+  - first:
+      213: 8358855722298633039
+    second: BossDie_2
+  - first:
+      213: -881900544585292981
+    second: BossDie_3
+  - first:
+      213: -7963834898924387567
+    second: BossDie_4
+  - first:
+      213: -2120891038695356261
+    second: BossDie_5
+  - first:
+      213: -7170883427217679363
+    second: BossDie_6
+  - first:
+      213: 4053156159766352426
+    second: BossDie_7
+  - first:
+      213: -4202442978864674513
+    second: BossDie_8
+  - first:
+      213: 6352567235319582211
+    second: BossDie_9
+  - first:
+      213: -5851623782140091189
+    second: BossDie_10
+  - first:
+      213: 3691312286061931873
+    second: BossDie_11
+  - first:
+      213: 5850550078185249266
+    second: BossDie_12
+  - first:
+      213: 285203076248825380
+    second: BossDie_13
+  - first:
+      213: -2961903740583949043
+    second: BossDie_14
+  - first:
+      213: -4994522255785051000
+    second: BossDie_15
+  - first:
+      213: -4311366918028667553
+    second: BossDie_16
+  - first:
+      213: -2723875832063026699
+    second: BossDie_17
+  - first:
+      213: -1394457141526634744
+    second: BossDie_18
+  - first:
+      213: 4995490781166628117
+    second: BossDie_19
+  - first:
+      213: 3076372419209212079
+    second: BossDie_20
+  - first:
+      213: -158740917569203716
+    second: BossDie_21
+  - first:
+      213: -8238738127737631191
+    second: BossDie_22
+  - first:
+      213: 5784954771779350936
+    second: BossDie_23
+  - first:
+      213: -6252085291432783955
+    second: BossDie_24
+  - first:
+      213: 304989036141431328
+    second: BossDie_25
+  - first:
+      213: 3816749226188361776
+    second: BossDie_26
+  - first:
+      213: -7749361618074331936
+    second: BossDie_27
+  - first:
+      213: -4729003739700971664
+    second: BossDie_28
+  - first:
+      213: -2756301084355577074
+    second: BossDie_29
+  - first:
+      213: 2386913625663820531
+    second: BossDie_30
+  - first:
+      213: 6517127260482180037
+    second: BossDie_31
+  - first:
+      213: -407678150914073531
+    second: BossDie_32
+  - first:
+      213: 1545759410309658740
+    second: BossDie_33
+  - first:
+      213: 7087552680647459744
+    second: BossDie_34
+  - first:
+      213: 7033998106254196976
+    second: BossDie_35
+  - first:
+      213: -7402401780307175330
+    second: BossDie_36
+  - first:
+      213: -7391959181535573965
+    second: BossDie_37
+  - first:
+      213: -378568695210428846
+    second: BossDie_38
+  - first:
+      213: -3565087427347745512
+    second: BossDie_39
+  - first:
+      213: 1015630391083758500
+    second: BossDie_40
+  - first:
+      213: 2549775260900750760
+    second: BossDie_41
+  - first:
+      213: 2005255113591250137
+    second: BossDie_42
+  - first:
+      213: 5373867817704250374
+    second: BossDie_43
+  - first:
+      213: -2597224602844223426
+    second: BossDie_44
+  - first:
+      213: 6460958631103849832
+    second: BossDie_45
+  - first:
+      213: 1946438425707548179
+    second: BossDie_46
+  - first:
+      213: 5149439145893748894
+    second: BossDie_47
+  - first:
+      213: -5490489698947446099
+    second: BossDie_48
+  - first:
+      213: -8788386470269894795
+    second: BossDie_49
+  - first:
+      213: -6442547550042415515
+    second: BossDie_50
+  - first:
+      213: -171219197232266577
+    second: BossDie_51
+  - first:
+      213: 3850831962721178167
+    second: BossDie_52
+  - first:
+      213: 3626451849523640727
+    second: BossDie_53
+  - first:
+      213: -5891361698234631411
+    second: BossDie_54
+  - first:
+      213: 1390195443506659310
+    second: BossDie_55
+  - first:
+      213: -6534470481236891862
+    second: BossDie_56
+  - first:
+      213: 8684684210542548358
+    second: BossDie_57
+  - first:
+      213: 3386374708566869401
+    second: BossDie_58
+  - first:
+      213: 4200537074018763108
+    second: BossDie_59
+  - first:
+      213: 3829176139233934025
+    second: BossDie_60
+  - first:
+      213: 3210118611345453496
+    second: BossDie_61
+  - first:
+      213: -2843716407452544696
+    second: BossDie_62
+  - first:
+      213: -5607117221060267135
+    second: BossDie_63
+  - first:
+      213: -636740203575935342
+    second: BossDie_64
+  - first:
+      213: -6829639797733886999
+    second: BossDie_65
+  - first:
+      213: 224016268657784790
+    second: BossDie_66
+  - first:
+      213: 4446361943763586073
+    second: BossDie_67
+  - first:
+      213: -8204068241301560624
+    second: BossDie_68
+  - first:
+      213: 5841568975808970705
+    second: BossDie_69
+  - first:
+      213: 2579750532089035543
+    second: BossDie_70
+  - first:
+      213: -2250371864848387632
+    second: BossDie_71
+  - first:
+      213: -5839161869883237409
+    second: BossDie_72
+  - first:
+      213: -4807550233058111706
+    second: BossDie_73
+  - first:
+      213: 1103452909895519213
+    second: BossDie_74
+  - first:
+      213: -6530167960116855130
+    second: BossDie_75
+  - first:
+      213: -3194894808338280021
+    second: BossDie_76
+  - first:
+      213: 203255180676784545
+    second: BossDie_77
+  - first:
+      213: 824204998179578337
+    second: BossDie_78
+  - first:
+      213: 7766422347180908061
+    second: BossDie_79
+  - first:
+      213: 897170722672052218
+    second: BossDie_80
+  - first:
+      213: -3393757310923338842
+    second: BossDie_81
+  - first:
+      213: -2130569802244243195
+    second: BossDie_82
+  - first:
+      213: 6769233348470060340
+    second: BossDie_83
+  - first:
+      213: 4173534159629734069
+    second: BossDie_84
+  - first:
+      213: -2131715379407583874
+    second: BossDie_85
+  - first:
+      213: -4163763699208674686
+    second: BossDie_86
+  - first:
+      213: 4465455792960396555
+    second: BossDie_87
+  - first:
+      213: -2299188850614114918
+    second: BossDie_88
+  - first:
+      213: -6728087621149734927
+    second: BossDie_89
+  - first:
+      213: 8990708716783269535
+    second: BossDie_90
+  - first:
+      213: 5357839008092579845
+    second: BossDie_91
+  - first:
+      213: 5648987285661896621
+    second: BossDie_92
+  - first:
+      213: 3377436969934682090
+    second: BossDie_93
+  - first:
+      213: -9082843023415806661
+    second: BossDie_94
+  - first:
+      213: -6669977059571800920
+    second: BossDie_95
+  - first:
+      213: -8182366601877639254
+    second: BossDie_96
+  - first:
+      213: 3497835025203045263
+    second: BossDie_97
+  - first:
+      213: 8261354057327547087
+    second: BossDie_98
+  - first:
+      213: 1660545371368056381
+    second: BossDie_99
+  - first:
+      213: 4173993598914161407
+    second: BossDie_100
+  - first:
+      213: 6267187378373235545
+    second: BossDie_101
+  - first:
+      213: -2735132800275870391
+    second: BossDie_102
+  - first:
+      213: -8659997086512777822
+    second: BossDie_103
+  - first:
+      213: -4553839501847825614
+    second: BossDie_104
+  - first:
+      213: -8429950019037734037
+    second: BossDie_105
+  - first:
+      213: 5104068997623790291
+    second: BossDie_106
+  - first:
+      213: 3735036803759038173
+    second: BossDie_107
+  - first:
+      213: -6013786699714600317
+    second: BossDie_108
+  - first:
+      213: 7207704493306547646
+    second: BossDie_109
+  - first:
+      213: 1690682628968484937
+    second: BossDie_110
+  - first:
+      213: 2713569453588036749
+    second: BossDie_111
+  - first:
+      213: -3821149129537870126
+    second: BossDie_112
+  - first:
+      213: -1465802604054267541
+    second: BossDie_113
+  - first:
+      213: 7184073971853161305
+    second: BossDie_114
+  - first:
+      213: 7846887615743918363
+    second: BossDie_115
+  - first:
+      213: 1004815838425452154
+    second: BossDie_116
+  - first:
+      213: 4006332605426540197
+    second: BossDie_117
+  - first:
+      213: 1138025459804289705
+    second: BossDie_118
+  - first:
+      213: 6845460380583868057
+    second: BossDie_119
+  - first:
+      213: 3137942926132783743
+    second: BossDie_120
+  - first:
+      213: -3582655246646870003
+    second: BossDie_121
+  - first:
+      213: 5905411511058689064
+    second: BossDie_122
+  - first:
+      213: 4581386098951123603
+    second: BossDie_123
+  - first:
+      213: 5213239728827844839
+    second: BossDie_124
+  - first:
+      213: 8651556767288653400
+    second: BossDie_125
+  - first:
+      213: 3367093391145891340
+    second: BossDie_126
+  - first:
+      213: 634427631903920775
+    second: BossDie_127
+  - first:
+      213: -508524434786444539
+    second: BossDie_128
+  - first:
+      213: -2984410711490792703
+    second: BossDie_129
+  - first:
+      213: -4669931896509486823
+    second: BossDie_130
+  - first:
+      213: 4939089977111124937
+    second: BossDie_131
+  - first:
+      213: -1709518508908352938
+    second: BossDie_132
+  - first:
+      213: -3017257227373566251
+    second: BossDie_133
+  - first:
+      213: -2518849396977636354
+    second: BossDie_134
+  - first:
+      213: 6183876650380306248
+    second: BossDie_135
+  - first:
+      213: -7002020938001894146
+    second: BossDie_136
+  - first:
+      213: -5250630507708699389
+    second: BossDie_137
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BossDie_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266
+        width: 353
+        height: 266
+      alignment: 9
+      pivot: {x: 0.4975743, y: 0.1696052}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c009645c970fed0800000000000000
+      internalID: -2382270314679628693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossDie_1
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 266
+        width: 353
+        height: 266
+      alignment: 9
+      pivot: {x: 0.4975743, y: 0.1696052}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db885d2c5f01acf40800000000000000
+      internalID: 5749426522013665469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossDie_2
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 266
+        width: 353
+        height: 266
+      alignment: 9
+      pivot: {x: 0.4975743, y: 0.1696052}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4be9580efe900470800000000000000
+      internalID: 8358855722298633039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossDie_3
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 266
+        width: 353
+        height: 266
+      alignment: 9
+      pivot: {x: 0.4975743, y: 0.1696052}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4325c0902cd2c3f0800000000000000
+      internalID: -881900544585292981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossDie_4
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 266
+        width: 353
+        height: 266
+      alignment: 9
+      pivot: {x: 0.4975743, y: 0.1696052}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113c0c78a56ca7190800000000000000
+      internalID: -7963834898924387567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossDie_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 353
+        height: 266
+      alignment: 9
+      pivot: {x: 0.4975743, y: 0.1696052}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98014756d41192e0800000000000000
+      internalID: -2120891038695356261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossDie_6
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 0
+        width: 353
+        height: 266
+      alignment: 9
+      pivot: {x: 0.4975743, y: 0.1696052}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb54f21487eb7c90800000000000000
+      internalID: -7170883427217679363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossDie_7
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 0
+        width: 353
+        height: 266
+      alignment: 9
+      pivot: {x: 0.4975743, y: 0.1696052}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a225f028d04bf3830800000000000000
+      internalID: 4053156159766352426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BossDie_8
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 0
+        width: 353
+        height: 266
+      alignment: 9
+      pivot: {x: 0.4975743, y: 0.1696052}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29cfef406ceda5c0800000000000000
+      internalID: -4202442978864674513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4cc4dab011938a144a5890f66de26467
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":2.0},"gridSpriteSize":{"x":353.0,"y":266.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.4975742995738983,"y":0.16960519552230836},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      BossDie_0: -2382270314679628693
+      BossDie_1: 5749426522013665469
+      BossDie_2: 8358855722298633039
+      BossDie_3: -881900544585292981
+      BossDie_4: -7963834898924387567
+      BossDie_5: -2120891038695356261
+      BossDie_6: -7170883427217679363
+      BossDie_7: 4053156159766352426
+      BossDie_8: -4202442978864674513
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

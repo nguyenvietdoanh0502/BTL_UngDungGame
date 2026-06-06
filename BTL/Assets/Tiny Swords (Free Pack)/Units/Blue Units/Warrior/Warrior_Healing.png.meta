@@ -1,0 +1,459 @@
+fileFormatVersion: 2
+guid: 21e9f5c0b6cbcc04ab579875a548cf5d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3350728133202354766
+    second: Warrior_Healing_0
+  - first:
+      213: -5316193531932121938
+    second: Warrior_Healing_1
+  - first:
+      213: -4992749644422757630
+    second: Warrior_Healing_2
+  - first:
+      213: -1279882753744767464
+    second: Warrior_Healing_3
+  - first:
+      213: -1074204823699385300
+    second: Warrior_Healing_4
+  - first:
+      213: -3107927887874908320
+    second: Warrior_Healing_5
+  - first:
+      213: -4969779589262904625
+    second: Warrior_Healing_6
+  - first:
+      213: -1199099414118876651
+    second: Warrior_Healing_7
+  - first:
+      213: -2740675300355995270
+    second: Warrior_Healing_8
+  - first:
+      213: -7647005789979027336
+    second: Warrior_Healing_9
+  - first:
+      213: 8539411612516196633
+    second: Warrior_Healing_10
+  - first:
+      213: 2239443211502180394
+    second: Warrior_Healing_11
+  - first:
+      213: 9133375260999834891
+    second: Warrior_Healing_12
+  - first:
+      213: 8470336303547151469
+    second: Warrior_Healing_13
+  - first:
+      213: -5939169410493615345
+    second: Warrior_Healing_14
+  - first:
+      213: -5847579151102968955
+    second: Warrior_Healing_15
+  - first:
+      213: -2918249951835081400
+    second: Warrior_Healing_16
+  - first:
+      213: -5634782911144222891
+    second: Warrior_Healing_17
+  - first:
+      213: -6707203163645735491
+    second: Warrior_Healing_18
+  - first:
+      213: 8645788970290047140
+    second: Warrior_Healing_19
+  - first:
+      213: -1958716144418082282
+    second: Warrior_Healing_20
+  - first:
+      213: -1075095092446039200
+    second: Warrior_Healing_21
+  - first:
+      213: -2580166084361019231
+    second: Warrior_Healing_22
+  - first:
+      213: 5550809096127768067
+    second: Warrior_Healing_23
+  - first:
+      213: -6135974830746156293
+    second: Warrior_Healing_24
+  - first:
+      213: -8249428516782825410
+    second: Warrior_Healing_25
+  - first:
+      213: 3882205393531533631
+    second: Warrior_Healing_26
+  - first:
+      213: 7419025779133572022
+    second: Warrior_Healing_27
+  - first:
+      213: 291993297084903416
+    second: Warrior_Healing_28
+  - first:
+      213: 6045628120362834518
+    second: Warrior_Healing_29
+  - first:
+      213: -3763995380875209092
+    second: Warrior_Healing_30
+  - first:
+      213: -7932575177374238608
+    second: Warrior_Healing_31
+  - first:
+      213: -4212787314563431506
+    second: Warrior_Healing_32
+  - first:
+      213: -6217116276813596147
+    second: Warrior_Healing_33
+  - first:
+      213: 562178031805340688
+    second: Warrior_Healing_34
+  - first:
+      213: -7781240006567871910
+    second: Warrior_Healing_35
+  - first:
+      213: -2141999653679938740
+    second: Warrior_Healing_36
+  - first:
+      213: 5727053774058996839
+    second: Warrior_Healing_37
+  - first:
+      213: 6120162345106875988
+    second: Warrior_Healing_38
+  - first:
+      213: 8200520038802987058
+    second: Warrior_Healing_39
+  - first:
+      213: 5196154220172947542
+    second: Warrior_Healing_40
+  - first:
+      213: 5544141946335215932
+    second: Warrior_Healing_41
+  - first:
+      213: 2063319608315445551
+    second: Warrior_Healing_42
+  - first:
+      213: 4511459999639774129
+    second: Warrior_Healing_43
+  - first:
+      213: 244590150420981333
+    second: Warrior_Healing_44
+  - first:
+      213: 1491063467212360336
+    second: Warrior_Healing_45
+  - first:
+      213: -3413232756013091958
+    second: Warrior_Healing_46
+  - first:
+      213: -1086637059931090342
+    second: Warrior_Healing_47
+  - first:
+      213: 3345069053754906691
+    second: Warrior_Healing_48
+  - first:
+      213: 4205129551773491015
+    second: Warrior_Healing_49
+  - first:
+      213: 8504494815252691589
+    second: Warrior_Healing_50
+  - first:
+      213: 8766655341123126747
+    second: Warrior_Healing_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Warrior_Healing_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5213255, y: 0.29038316}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e422f66fb7d208e20800000000000000
+      internalID: 3350728133202354766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Healing_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5213256, y: 0.2903832}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4e4fb26261936b0800000000000000
+      internalID: -5316193531932121938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Healing_2
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 0
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5213256, y: 0.2903832}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20349bfa6a036bab0800000000000000
+      internalID: -4992749644422757630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Healing_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5213256, y: 0.2903832}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816f4e4aa61fc3ee0800000000000000
+      internalID: -1279882753744767464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Healing_4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5213256, y: 0.2903832}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24136b7768a711f0800000000000000
+      internalID: -1074204823699385300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Healing_5
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5213256, y: 0.2903832}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f9faf6d0c6ed4d0800000000000000
+      internalID: -3107927887874908320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Healing_6
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5213256, y: 0.2903832}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc27ff96bcbc70bb0800000000000000
+      internalID: -4969779589262904625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Warrior_Healing_7
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 192
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5213256, y: 0.2903832}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ab01b9f61fb5fe0800000000000000
+      internalID: -1199099414118876651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4e0db510f4a4d264aa6080cbc3c03446
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":1.0},"gridSpriteSize":{"x":192.0,"y":192.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Warrior_Healing_0: 3350728133202354766
+      Warrior_Healing_1: -5316193531932121938
+      Warrior_Healing_2: -4992749644422757630
+      Warrior_Healing_3: -1279882753744767464
+      Warrior_Healing_4: -1074204823699385300
+      Warrior_Healing_5: -3107927887874908320
+      Warrior_Healing_6: -4969779589262904625
+      Warrior_Healing_7: -1199099414118876651
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
