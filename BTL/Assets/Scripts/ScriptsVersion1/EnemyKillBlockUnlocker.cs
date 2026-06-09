@@ -357,6 +357,21 @@ public class EnemyKillBlockUnlocker : MonoBehaviour
             return;
         }
 
+        BossAppearCanvasHandler handler = bossAppearCanvas.GetComponent<BossAppearCanvasHandler>();
+        if (handler != null)
+        {
+            if (visible)
+            {
+                handler.Show();
+            }
+            else
+            {
+                handler.Hide();
+            }
+
+            return;
+        }
+
         bossAppearCanvas.SetActive(visible);
     }
 

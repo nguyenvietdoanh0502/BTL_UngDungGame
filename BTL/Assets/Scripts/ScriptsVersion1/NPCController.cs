@@ -160,6 +160,11 @@ public class NPCController : MonoBehaviour
         }
 
         dialogueCanvas.SetActive(visible);
+
+        if (!visible)
+        {
+            StopInteractSound();
+        }
     }
 
     void SetMissionVisible(bool visible)
@@ -182,7 +187,7 @@ public class NPCController : MonoBehaviour
         }
 
         bool visible = !dialogueCanvas.activeSelf;
-        dialogueCanvas.SetActive(visible);
+        SetDialogueVisible(visible);
         return visible;
     }
 
@@ -386,6 +391,14 @@ public class NPCController : MonoBehaviour
         }
 
         audioSource.PlayOneShot(interactSound, interactSoundVolume);
+    }
+
+    void StopInteractSound()
+    {
+        if (audioSource != null && audioSource.isPlaying)
+        {
+            audioSource.Stop();
+        }
     }
 
     public void Fix()
