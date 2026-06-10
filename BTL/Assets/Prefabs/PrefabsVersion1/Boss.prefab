@@ -1,0 +1,373 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6212234674610861920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4839498506684342475}
+  - component: {fileID: 2446062158019587003}
+  - component: {fileID: 2502558594229879084}
+  - component: {fileID: 8550725814589062926}
+  - component: {fileID: 7667140404258975442}
+  m_Layer: 8
+  m_Name: Boss
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4839498506684342475
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6212234674610861920}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.39, y: 12.61, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2446062158019587003
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6212234674610861920}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: -7646510753189164367, guid: e28ce80a623680d4ea210850e79332ef, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.520104, y: 4.15625}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 1
+--- !u!95 &2502558594229879084
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6212234674610861920}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9b29eef562597a74eaa0c1eafdd9018a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8550725814589062926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6212234674610861920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98f2b00dc3ea9114bbe7a27790c64c6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossController
+  expectedBossName: Boss
+  warnWhenSceneSetupIsUnexpected: 1
+  face1MaxHealth: 400
+  face1Attack1Damage: 15
+  face1Attack2Damage: 30
+  face1FireBreathCount: 3
+  face1Attack1Weight: 2
+  face1Attack2Weight: 1
+  face1Attack3Weight: 1
+  face2MaxHealth: 1000
+  face2Attack1Damage: 30
+  face2Attack2Damage: 60
+  face2FireBreathCount: 4
+  face2Attack1Weight: 1
+  face2Attack2Weight: 1
+  face2Attack3Weight: 1
+  face2Attack4Weight: 1
+  detectionRange: 8
+  attackCooldown: 2
+  attack1Chance: 0.6666667
+  lostPlayerRetryDelay: 0.5
+  bossArenaExitBlock: {fileID: 0}
+  reactivateBlockWhenPlayerEntersArena: 1
+  useBossArenaEntryLine: 1
+  bossArenaEntryLineOffsetY: 0.75
+  bossArenaEntryRange: 5
+  teleportDistanceFromPlayer: 1.2
+  attack1PreAttackDelay: 0.5
+  attack1DamageDelay: 0.25
+  attack1HitRadius: 1.4
+  attack1ReturnDelay: 0.15
+  attack1FallbackDuration: 0.7
+  attack2DamageDelay: 0.75
+  attack2FireActiveDuration: 0.85
+  attack2FallbackDuration: 0.8
+  fireDirection: {x: 0, y: -1}
+  face1FireOriginOffset: {x: 0, y: 0.8}
+  face1FireRange: 5.2
+  face1FireWidth: 1
+  face2FireOriginOffset: {x: 0, y: 0.8}
+  face2FireRange: 6.8
+  face2FireWidth: 2.5
+  sideStepDistance: 2.5
+  sideStepDuration: 0.25
+  timeBetweenFireBreaths: 0.2
+  bossProjectilePrefab: {fileID: 1325128043167469962, guid: ac521658d871a07418d7e9fa085bff77, type: 3}
+  bossProjectile2Prefab: {fileID: 7108394045489026245, guid: 222d09730c349f74db94a97699e6347e, type: 3}
+  attack3WaveCount: 3
+  attack3TimeBetweenWaves: 1
+  attack3ProjectileCount: 24
+  attack3ProjectileForce: 500
+  attack3ProjectileSpawnRadius: 0.8
+  attack3FirstWaveDelay: 0.2
+  attack3WaveRotationStepDegrees: 5
+  attack3FallbackDuration: 2.4
+  thunderPrefab: {fileID: 3329614915623561018, guid: d6ce401d57042f1449bac41e4a5af2bc, type: 3}
+  attack4RepeatCount: 8
+  attack4TimeBetweenStrikes: 0.2
+  attack4ThunderLifetime: 1.5
+  attack4FallbackDuration: 1
+  face1IdleStateName: Boss1Idle
+  face1Attack1StateName: Boss1Attack1
+  face1Attack2StateName: Boss1Attack2
+  face1Attack3StateName: Boss1Attack3
+  face2IdleStateName: Boss2Idle
+  face2Attack1StateName: Boss2Attack1
+  face2Attack2StateName: Boss2Attack2
+  face2Attack3StateName: Boss2Attack3
+  face2Attack4StateName: Boss2Attack4
+  sharedIdleStateName: Idle
+  sharedAttack1StateName: Attack1
+  sharedAttack2StateName: Attack2
+  sharedAttack3StateName: Attack3
+  sharedAttack4StateName: Attack4
+  transformStateName: BossTranform
+  deathStateName: BossDie
+  transformedParameter: isTranformed
+  deathParameter: isDeath
+  transformFallbackDuration: 1
+  deathFallbackDuration: 1
+  deathDestroyDelay: 3
+  boss1IdleClip: {fileID: 7400000, guid: 57a4535684915e54a98869c8ef95a7e0, type: 2}
+  boss1Attack1Clip: {fileID: 7400000, guid: 800fe39777a1c504bb18cae7ad818aeb, type: 2}
+  boss1Attack2Clip: {fileID: 7400000, guid: e871668fbf2c5314286b779c670700a7, type: 2}
+  boss1Attack3Clip: {fileID: 7400000, guid: 197a4091d26bb464197c87d461b6f3ff, type: 2}
+  boss2IdleClip: {fileID: 7400000, guid: ce0e932d08f643744abaa3ea9afd2972, type: 2}
+  boss2Attack1Clip: {fileID: 7400000, guid: f2f6c0627fd5f444aa18ddda4e9b9d54, type: 2}
+  boss2Attack2Clip: {fileID: 7400000, guid: fc9fdf8dba6ff7a4ea884c810752386c, type: 2}
+  boss2Attack3Clip: {fileID: 7400000, guid: 98844f71467754c40a45e1b4d6e6254f, type: 2}
+  boss2Attack4Clip: {fileID: 7400000, guid: 8cfbe304576210147ada161335cd40af, type: 2}
+  bossTransformClip: {fileID: 7400000, guid: bd54906c66944f740a2b8b60edf0e0a5, type: 2}
+  bossDieClip: {fileID: 7400000, guid: a3613ce05f381c049b9aef814715c05a, type: 2}
+  createHitColliderIfMissing: 1
+  hurtFlashDuration: 0.12
+  hurtFlashColor: {r: 1, g: 0, b: 0, a: 1}
+  appearSound: {fileID: 8300000, guid: 7dcbc7d81a3ba1e48bca9d3ecb3b58a7, type: 3}
+  appearSoundVolume: 0.822
+  unlockLoopSound: {fileID: 8300000, guid: 98e3b8bf1db9ef54d8e314f3e2fe8e2f, type: 3}
+  unlockLoopSoundVolume: 0.146
+  playUnlockLoopSound: 1
+  hitSound: {fileID: 8300000, guid: 185d8da1b107d474ab3a8b82c8482b48, type: 3}
+  hitSoundVolume: 0.3
+  teleportSound: {fileID: 8300000, guid: 46ad4b2e9012b404394a4e8fc0537209, type: 3}
+  teleportSoundVolume: 0.349
+  face1Attack1Sound: {fileID: 8300000, guid: 387fdf9e574e15848b2d52e5248c01ca, type: 3}
+  face1Attack1SoundVolume: 0.235
+  face2Attack1Sound: {fileID: 8300000, guid: d7ffd9f7edf262942bde596250c935ba, type: 3}
+  face2Attack1SoundVolume: 0.319
+  face1Attack2Sound: {fileID: 8300000, guid: c24a803754123ce43b24a69e39d7c0af, type: 3}
+  face1Attack2SoundVolume: 0.153
+  face2Attack2Sound: {fileID: 8300000, guid: c24a803754123ce43b24a69e39d7c0af, type: 3}
+  face2Attack2SoundVolume: 0.165
+  attack3FireSound: {fileID: 8300000, guid: f1af8a82a1527a1438dde23dd84c13b1, type: 3}
+  attack3FireSoundVolume: 0.812
+  laughSound: {fileID: 8300000, guid: 91b04a5b805516a418ae0a2b064dbc13, type: 3}
+  laughSoundVolume: 0.174
+  minLaughInterval: 4
+  maxLaughInterval: 8
+  transformSound: {fileID: 8300000, guid: 0bae10bde266db14d9384c9192ce65f3, type: 3}
+  transformSoundVolume: 0.15
+  deathSound: {fileID: 8300000, guid: c3beb753e2e9d7d49805c5ff141072a4, type: 3}
+  deathSoundVolume: 0.263
+  postDestroySound: {fileID: 8300000, guid: 17b7a7a399a3efe4693732a38ca4d857, type: 3}
+  postDestroySoundVolume: 0.526
+  uiWinCanvas: {fileID: 0}
+  uiWinCanvasName: UIWin
+  showWinUIOnDeath: 1
+  pauseGameOnWin: 1
+--- !u!60 &7667140404258975442
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6212234674610861920}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.4942529, y: 0.16349}
+    oldSize: {x: 5.520104, y: 4.15625}
+    newSize: {x: 5.520104, y: 4.15625}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.0061893463, y: 0.48944664}
+      - {x: -0.2524274, y: 0.5229082}
+      - {x: -0.32333434, y: 0.5453427}
+      - {x: -0.25379366, y: 0.43286672}
+      - {x: -0.19974273, y: 0.41965544}
+      - {x: -0.08138955, y: 0.41528234}
+      - {x: -0.02353391, y: 0.4255782}
+      - {x: 0.11871287, y: 0.3917297}
+      - {x: 0.19335553, y: 0.3982908}
+      - {x: 0.3224365, y: 0.43063515}
+      - {x: 0.24269238, y: 0.49459454}
+    - - {x: 0.54923445, y: 0.9538847}
+      - {x: 0.5007179, y: 1.0832621}
+      - {x: 0.5654066, y: 1.1317787}
+      - {x: 0.6300953, y: 1.1964674}
+      - {x: 0.7594727, y: 1.2288117}
+      - {x: 0.88885015, y: 1.2288117}
+      - {x: 1.1314329, y: 1.1802952}
+      - {x: 1.2284659, y: 1.2773283}
+      - {x: 1.3416711, y: 1.2126396}
+      - {x: 1.4710486, y: 1.2773283}
+      - {x: 1.5680816, y: 1.2288117}
+      - {x: 2.0855913, y: 1.2935004}
+      - {x: 2.1017635, y: 1.3420169}
+      - {x: 2.1017635, y: 1.4067057}
+      - {x: 1.9723861, y: 1.5684274}
+      - {x: 1.7944921, y: 1.6978049}
+      - {x: 1.6327703, y: 1.7624936}
+      - {x: 1.4710486, y: 1.794838}
+      - {x: 0.98588324, y: 1.794838}
+      - {x: 0.6462675, y: 1.7786658}
+      - {x: 0.35516828, y: 1.6816328}
+      - {x: 0.24196304, y: 1.7139771}
+      - {x: 0.080241255, y: 1.8271823}
+      - {x: -0.12999706, y: 1.8271823}
+      - {x: -0.42109627, y: 1.6978049}
+      - {x: -0.6313346, y: 1.7463214}
+      - {x: -1.0518112, y: 1.8110101}
+      - {x: -1.6501818, y: 1.794838}
+      - {x: -1.8604201, y: 1.7301493}
+      - {x: -2.1515193, y: 1.4552222}
+      - {x: -2.1676915, y: 1.4228779}
+      - {x: -2.1676915, y: 1.3096726}
+      - {x: -2.0544863, y: 1.2935004}
+      - {x: -1.8927644, y: 1.2773283}
+      - {x: -1.7148705, y: 1.2288117}
+      - {x: -1.4722879, y: 1.2773283}
+      - {x: -1.4237713, y: 1.1964674}
+      - {x: -1.3429104, y: 1.2449839}
+      - {x: -1.1811886, y: 1.1802952}
+      - {x: -1.1003277, y: 1.2126396}
+      - {x: -0.9709503, y: 1.2126396}
+      - {x: -0.7445398, y: 1.2288117}
+      - {x: -0.71219546, y: 1.1802952}
+      - {x: -0.58281803, y: 0.9538847}
+      - {x: -0.5504737, y: 0.889196}
+      - {x: -0.3887519, y: 0.9053682}
+      - {x: -0.4534406, y: 0.6789577}
+      - {x: -0.4534406, y: 0.56575245}
+      - {x: -0.3887519, y: 0.4525472}
+      - {x: -0.27704984, y: 0.32792982}
+      - {x: -0.03296399, y: 0.3716863}
+      - {x: 0.09641343, y: 0.29082543}
+      - {x: 0.17727433, y: 0.29082543}
+      - {x: 0.37134045, y: 0.33934194}
+      - {x: 0.43602917, y: 0.5495803}
+      - {x: 0.29047957, y: 0.9053682}
+      - {x: 0.419857, y: 0.8730238}
+  m_UseDelaunayMesh: 1

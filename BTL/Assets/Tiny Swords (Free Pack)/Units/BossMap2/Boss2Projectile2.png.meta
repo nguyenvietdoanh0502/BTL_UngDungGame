@@ -1,0 +1,1703 @@
+fileFormatVersion: 2
+guid: 0a70b2b9a0e05eb48a6c8c7bae751d09
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1751339821073617523
+    second: Boss2Projectile2_0
+  - first:
+      213: 1500329373634994866
+    second: Boss2Projectile2_1
+  - first:
+      213: 3548892539934327505
+    second: Boss2Projectile2_2
+  - first:
+      213: 5038842656553331011
+    second: Boss2Projectile2_3
+  - first:
+      213: -8181799276883962473
+    second: Boss2Projectile2_4
+  - first:
+      213: 3349535970104741184
+    second: Boss2Projectile2_5
+  - first:
+      213: 8711714478107042398
+    second: Boss2Projectile2_6
+  - first:
+      213: 4356576084961907728
+    second: Boss2Projectile2_7
+  - first:
+      213: 6390239766125270023
+    second: Boss2Projectile2_8
+  - first:
+      213: -8432772155438633789
+    second: Boss2Projectile2_9
+  - first:
+      213: 2776628118237292826
+    second: Boss2Projectile2_10
+  - first:
+      213: 3243689620319539928
+    second: Boss2Projectile2_11
+  - first:
+      213: -3174086660479241124
+    second: Boss2Projectile2_12
+  - first:
+      213: -2267164104531943742
+    second: Boss2Projectile2_13
+  - first:
+      213: 1625661202481343301
+    second: Boss2Projectile2_14
+  - first:
+      213: -891063405684180851
+    second: Boss2Projectile2_15
+  - first:
+      213: 7492899811233477545
+    second: Boss2Projectile2_16
+  - first:
+      213: -1375301843099940658
+    second: Boss2Projectile2_17
+  - first:
+      213: 3021249626739537681
+    second: Boss2Projectile2_18
+  - first:
+      213: -2931688598034746546
+    second: Boss2Projectile2_19
+  - first:
+      213: -6792083216208513969
+    second: Boss2Projectile2_20
+  - first:
+      213: 2318426824379423672
+    second: Boss2Projectile2_21
+  - first:
+      213: -1313621791458144997
+    second: Boss2Projectile2_22
+  - first:
+      213: -1198610152378665003
+    second: Boss2Projectile2_23
+  - first:
+      213: 8351991655202161412
+    second: Boss2Projectile2_24
+  - first:
+      213: -2321303227533975322
+    second: Boss2Projectile2_25
+  - first:
+      213: 3656611705198706455
+    second: Boss2Projectile2_26
+  - first:
+      213: 3762713517971929663
+    second: Boss2Projectile2_27
+  - first:
+      213: 432535905230506888
+    second: Boss2Projectile2_28
+  - first:
+      213: 2790473905439396252
+    second: Boss2Projectile2_29
+  - first:
+      213: 1578688096954007094
+    second: Boss2Projectile2_30
+  - first:
+      213: -769532074664763035
+    second: Boss2Projectile2_31
+  - first:
+      213: -2810140422252983087
+    second: Boss2Projectile2_32
+  - first:
+      213: -5851123936044792056
+    second: Boss2Projectile2_33
+  - first:
+      213: -5173740055581030553
+    second: Boss2Projectile2_34
+  - first:
+      213: 4620930899346402857
+    second: Boss2Projectile2_35
+  - first:
+      213: 8968002790339902380
+    second: Boss2Projectile2_36
+  - first:
+      213: -3063836206127471558
+    second: Boss2Projectile2_37
+  - first:
+      213: 7918171668160961816
+    second: Boss2Projectile2_38
+  - first:
+      213: -4003650913071408067
+    second: Boss2Projectile2_39
+  - first:
+      213: 1041710898400713139
+    second: Boss2Projectile2_40
+  - first:
+      213: -8108371120805060753
+    second: Boss2Projectile2_41
+  - first:
+      213: 7963635508266673723
+    second: Boss2Projectile2_42
+  - first:
+      213: -8444884512599341510
+    second: Boss2Projectile2_43
+  - first:
+      213: -6142647897726023445
+    second: Boss2Projectile2_44
+  - first:
+      213: 2510671075167240761
+    second: Boss2Projectile2_45
+  - first:
+      213: -8229254523041958983
+    second: Boss2Projectile2_46
+  - first:
+      213: 6860480536246192610
+    second: Boss2Projectile2_47
+  - first:
+      213: -6897429892428415545
+    second: Boss2Projectile2_48
+  - first:
+      213: 6232191869057016491
+    second: Boss2Projectile2_49
+  - first:
+      213: 6392132007871507909
+    second: Boss2Projectile2_50
+  - first:
+      213: -8611845820200590585
+    second: Boss2Projectile2_51
+  - first:
+      213: -2679933487209026133
+    second: Boss2Projectile2_52
+  - first:
+      213: 2279805469408814587
+    second: Boss2Projectile2_53
+  - first:
+      213: 2281269329312807692
+    second: Boss2Projectile2_54
+  - first:
+      213: 5605466373792924536
+    second: Boss2Projectile2_55
+  - first:
+      213: 2656225186346559888
+    second: Boss2Projectile2_56
+  - first:
+      213: -7142389545267647341
+    second: Boss2Projectile2_57
+  - first:
+      213: 1970522040779622739
+    second: Boss2Projectile2_58
+  - first:
+      213: 5439053654165443403
+    second: Boss2Projectile2_59
+  - first:
+      213: 9020764403307581724
+    second: Boss2Projectile2_60
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss2Projectile2_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 717
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d29e336bdf1b7e0800000000000000
+      internalID: -1751339821073617523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 717
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b22991cd9d32d410800000000000000
+      internalID: 1500329373634994866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_2
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 717
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2c1d456f2304130800000000000000
+      internalID: 3548892539934327505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_3
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 717
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34962fef2b09de540800000000000000
+      internalID: 5038842656553331011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_4
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 717
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79598cd18e8647e80800000000000000
+      internalID: -8181799276883962473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_5
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 717
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d8c7cd731fb7e20800000000000000
+      internalID: 3349535970104741184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_6
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 717
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52a234492a36e870800000000000000
+      internalID: 8711714478107042398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_7
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 717
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014dd1dfddaa57c30800000000000000
+      internalID: 4356576084961907728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_8
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 617
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704d879d531bea850800000000000000
+      internalID: 6390239766125270023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_9
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 617
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc66434766c8fa80800000000000000
+      internalID: -8432772155438633789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_10
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 617
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1925e4ff80988620800000000000000
+      internalID: 2776628118237292826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_11
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 617
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d294cc1686e30d20800000000000000
+      internalID: 3243689620319539928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_12
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 617
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5434d3dff063f3d0800000000000000
+      internalID: -3174086660479241124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_13
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 617
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce5bd5424a6980e0800000000000000
+      internalID: -2267164104531943742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_14
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 617
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54be80320428f8610800000000000000
+      internalID: 1625661202481343301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_15
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 617
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8838d7bd8e42a3f0800000000000000
+      internalID: -891063405684180851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_16
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 517
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3b922eda02cf760800000000000000
+      internalID: 7492899811233477545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_17
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 517
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec88617a242f9ece0800000000000000
+      internalID: -1375301843099940658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_18
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 517
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117779b3782ade920800000000000000
+      internalID: 3021249626739537681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_19
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 517
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43731ab0cc8057d0800000000000000
+      internalID: -2931688598034746546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_20
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 517
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44bff40d4cadb1a0800000000000000
+      internalID: -6792083216208513969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_21
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 517
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb5fd8c9e4bc2020800000000000000
+      internalID: 2318426824379423672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_22
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 517
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1dcce6c0f315cde0800000000000000
+      internalID: -1313621791458144997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_23
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 517
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7fa4bba6ead5fe0800000000000000
+      internalID: -1198610152378665003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_24
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 417
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4030a5fd82c38e370800000000000000
+      internalID: 8351991655202161412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_25
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 417
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0aeda630319cfd0800000000000000
+      internalID: -2321303227533975322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_26
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 417
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f77e9e8f4eeb230800000000000000
+      internalID: 3656611705198706455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_27
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 417
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3af6464208d73430800000000000000
+      internalID: 3762713517971929663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_28
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 417
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88bcdd73d1da00600800000000000000
+      internalID: 432535905230506888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_29
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 417
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9156b08b31c9b620800000000000000
+      internalID: 2790473905439396252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_30
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 417
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63eb41eb570a8e510800000000000000
+      internalID: 1578688096954007094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_31
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 417
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561665eb7a21255f0800000000000000
+      internalID: -769532074664763035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_32
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 317
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc05aabc206009d0800000000000000
+      internalID: -2810140422252983087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_33
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 317
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807c34fd7c1accea0800000000000000
+      internalID: -5851123936044792056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_34
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 317
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76702e2c4de2338b0800000000000000
+      internalID: -5173740055581030553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_35
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 317
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e2b239b28d02040800000000000000
+      internalID: 4620930899346402857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_36
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 317
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cabfbe6f50fb47c70800000000000000
+      internalID: 8968002790339902380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_37
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 317
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34aac314311b75d0800000000000000
+      internalID: -3063836206127471558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_38
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 317
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ddb4f0e2ff2ed60800000000000000
+      internalID: 7918171668160961816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_39
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 317
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3cd5b1f4bc2078c0800000000000000
+      internalID: -4003650913071408067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_40
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 217
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9d3d9fa86e47e00800000000000000
+      internalID: 1041710898400713139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_41
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 217
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fd065fc67497f80800000000000000
+      internalID: -8108371120805060753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_42
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 217
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b362ce63d44848e60800000000000000
+      internalID: 7963635508266673723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_43
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 217
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a368159574ebdca80800000000000000
+      internalID: -8444884512599341510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_44
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 217
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be88dbb384ee0caa0800000000000000
+      internalID: -6142647897726023445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_45
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 217
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932013f6a02b7d220800000000000000
+      internalID: 2510671075167240761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_46
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 217
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3becb9c90dbcd80800000000000000
+      internalID: -8229254523041958983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_47
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 217
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e98f6703b2553f50800000000000000
+      internalID: 6860480536246192610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_48
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 117
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cdb4a69e086740a0800000000000000
+      internalID: -6897429892428415545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_49
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 117
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2a83f3c713d7650800000000000000
+      internalID: 6232191869057016491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_50
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 117
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cde596b13a65b850800000000000000
+      internalID: 6392132007871507909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_51
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 117
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703e282aad39c7880800000000000000
+      internalID: -8611845820200590585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_52
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 117
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad6b3931b6fecad0800000000000000
+      internalID: -2679933487209026133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_53
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 117
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf5ea19defe73af10800000000000000
+      internalID: 2279805469408814587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_54
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 117
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0bfeaa4e52b8af10800000000000000
+      internalID: 2281269329312807692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_55
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 117
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873035ac7fd9acd40800000000000000
+      internalID: 5605466373792924536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_56
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 17
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099e1a3dbbeccd420800000000000000
+      internalID: 2656225186346559888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_57
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 17
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39cabd2fc8221ec90800000000000000
+      internalID: -7142389545267647341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_58
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 17
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3594fb61b53b85b10800000000000000
+      internalID: 1970522040779622739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_59
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 17
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4352da2b766b7b40800000000000000
+      internalID: 5439053654165443403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Projectile2_60
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 17
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1113a54e61303d70800000000000000
+      internalID: 9020764403307581724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boss2Projectile2_0: -1751339821073617523
+      Boss2Projectile2_1: 1500329373634994866
+      Boss2Projectile2_10: 2776628118237292826
+      Boss2Projectile2_11: 3243689620319539928
+      Boss2Projectile2_12: -3174086660479241124
+      Boss2Projectile2_13: -2267164104531943742
+      Boss2Projectile2_14: 1625661202481343301
+      Boss2Projectile2_15: -891063405684180851
+      Boss2Projectile2_16: 7492899811233477545
+      Boss2Projectile2_17: -1375301843099940658
+      Boss2Projectile2_18: 3021249626739537681
+      Boss2Projectile2_19: -2931688598034746546
+      Boss2Projectile2_2: 3548892539934327505
+      Boss2Projectile2_20: -6792083216208513969
+      Boss2Projectile2_21: 2318426824379423672
+      Boss2Projectile2_22: -1313621791458144997
+      Boss2Projectile2_23: -1198610152378665003
+      Boss2Projectile2_24: 8351991655202161412
+      Boss2Projectile2_25: -2321303227533975322
+      Boss2Projectile2_26: 3656611705198706455
+      Boss2Projectile2_27: 3762713517971929663
+      Boss2Projectile2_28: 432535905230506888
+      Boss2Projectile2_29: 2790473905439396252
+      Boss2Projectile2_3: 5038842656553331011
+      Boss2Projectile2_30: 1578688096954007094
+      Boss2Projectile2_31: -769532074664763035
+      Boss2Projectile2_32: -2810140422252983087
+      Boss2Projectile2_33: -5851123936044792056
+      Boss2Projectile2_34: -5173740055581030553
+      Boss2Projectile2_35: 4620930899346402857
+      Boss2Projectile2_36: 8968002790339902380
+      Boss2Projectile2_37: -3063836206127471558
+      Boss2Projectile2_38: 7918171668160961816
+      Boss2Projectile2_39: -4003650913071408067
+      Boss2Projectile2_4: -8181799276883962473
+      Boss2Projectile2_40: 1041710898400713139
+      Boss2Projectile2_41: -8108371120805060753
+      Boss2Projectile2_42: 7963635508266673723
+      Boss2Projectile2_43: -8444884512599341510
+      Boss2Projectile2_44: -6142647897726023445
+      Boss2Projectile2_45: 2510671075167240761
+      Boss2Projectile2_46: -8229254523041958983
+      Boss2Projectile2_47: 6860480536246192610
+      Boss2Projectile2_48: -6897429892428415545
+      Boss2Projectile2_49: 6232191869057016491
+      Boss2Projectile2_5: 3349535970104741184
+      Boss2Projectile2_50: 6392132007871507909
+      Boss2Projectile2_51: -8611845820200590585
+      Boss2Projectile2_52: -2679933487209026133
+      Boss2Projectile2_53: 2279805469408814587
+      Boss2Projectile2_54: 2281269329312807692
+      Boss2Projectile2_55: 5605466373792924536
+      Boss2Projectile2_56: 2656225186346559888
+      Boss2Projectile2_57: -7142389545267647341
+      Boss2Projectile2_58: 1970522040779622739
+      Boss2Projectile2_59: 5439053654165443403
+      Boss2Projectile2_6: 8711714478107042398
+      Boss2Projectile2_60: 9020764403307581724
+      Boss2Projectile2_7: 4356576084961907728
+      Boss2Projectile2_8: 6390239766125270023
+      Boss2Projectile2_9: -8432772155438633789
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

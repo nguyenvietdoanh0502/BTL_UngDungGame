@@ -29,6 +29,10 @@ public class BossController : MonoBehaviour
     public int face2Attack1Damage = 30;
     public int face2Attack2Damage = 60;
     public int face2FireBreathCount = 4;
+    public float face2Attack1Weight = 1f;
+    public float face2Attack2Weight = 1f;
+    public float face2Attack3Weight = 1f;
+    public float face2Attack4Weight = 1f;
 
     [Header("Detection")]
     public float detectionRange = 8f;
@@ -68,6 +72,7 @@ public class BossController : MonoBehaviour
 
     [Header("Attack 3 - Projectile Ring")]
     public BossProjectile bossProjectilePrefab;
+    public BossProjectile bossProjectile2Prefab;
     public int attack3WaveCount = 3;
     public float attack3TimeBetweenWaves = 1f;
     public int attack3ProjectileCount = 24;
@@ -77,6 +82,13 @@ public class BossController : MonoBehaviour
     public float attack3WaveRotationStepDegrees = 15f;
     public float attack3FallbackDuration = 2.4f;
 
+    [Header("Attack 4 - Thunder Strike")]
+    public Thunder thunderPrefab;
+    public int attack4RepeatCount = 3;
+    public float attack4TimeBetweenStrikes = 0.2f;
+    public float attack4ThunderLifetime = 1.5f;
+    public float attack4FallbackDuration = 1f;
+
     [Header("Animation States")]
     public string face1IdleStateName = "Boss1Idle";
     public string face1Attack1StateName = "Boss1Attack1";
@@ -85,9 +97,13 @@ public class BossController : MonoBehaviour
     public string face2IdleStateName = "Boss2Idle";
     public string face2Attack1StateName = "Boss2Attack1";
     public string face2Attack2StateName = "Boss2Attack2";
+    public string face2Attack3StateName = "Boss2Attack3";
+    public string face2Attack4StateName = "Boss2Attack4";
     public string sharedIdleStateName = "Idle";
     public string sharedAttack1StateName = "Attack1";
     public string sharedAttack2StateName = "Attack2";
+    public string sharedAttack3StateName = "Attack3";
+    public string sharedAttack4StateName = "Attack4";
     public string transformStateName = "BossTranform";
     public string deathStateName = "BossDie";
     public string transformedParameter = "isTranformed";
@@ -104,6 +120,8 @@ public class BossController : MonoBehaviour
     public AnimationClip boss2IdleClip;
     public AnimationClip boss2Attack1Clip;
     public AnimationClip boss2Attack2Clip;
+    public AnimationClip boss2Attack3Clip;
+    public AnimationClip boss2Attack4Clip;
     public AnimationClip bossTransformClip;
     public AnimationClip bossDieClip;
 
@@ -238,6 +256,10 @@ public class BossController : MonoBehaviour
         face1Attack1Weight = Mathf.Max(0f, face1Attack1Weight);
         face1Attack2Weight = Mathf.Max(0f, face1Attack2Weight);
         face1Attack3Weight = Mathf.Max(0f, face1Attack3Weight);
+        face2Attack1Weight = Mathf.Max(0f, face2Attack1Weight);
+        face2Attack2Weight = Mathf.Max(0f, face2Attack2Weight);
+        face2Attack3Weight = Mathf.Max(0f, face2Attack3Weight);
+        face2Attack4Weight = Mathf.Max(0f, face2Attack4Weight);
         detectionRange = Mathf.Max(0f, detectionRange);
         attackCooldown = Mathf.Max(0f, attackCooldown);
         attack1Chance = Mathf.Clamp01(attack1Chance);
@@ -263,6 +285,10 @@ public class BossController : MonoBehaviour
         attack3ProjectileSpawnRadius = Mathf.Max(0f, attack3ProjectileSpawnRadius);
         attack3FirstWaveDelay = Mathf.Max(0f, attack3FirstWaveDelay);
         attack3FallbackDuration = Mathf.Max(0.01f, attack3FallbackDuration);
+        attack4RepeatCount = Mathf.Max(1, attack4RepeatCount);
+        attack4TimeBetweenStrikes = Mathf.Max(0f, attack4TimeBetweenStrikes);
+        attack4ThunderLifetime = Mathf.Max(0.01f, attack4ThunderLifetime);
+        attack4FallbackDuration = Mathf.Max(0.01f, attack4FallbackDuration);
         deathDestroyDelay = Mathf.Max(0f, deathDestroyDelay);
         minLaughInterval = Mathf.Max(0.1f, minLaughInterval);
         maxLaughInterval = Mathf.Max(minLaughInterval, maxLaughInterval);
@@ -425,8 +451,32 @@ public class BossController : MonoBehaviour
             return Attack3Sequence();
         }
 
-        bool useTeleportAttack = Random.value < attack1Chance;
-        return useTeleportAttack ? Attack1Sequence() : Attack2Sequence();
+        float face2TotalWeight = face2Attack1Weight + face2Attack2Weight + face2Attack3Weight + face2Attack4Weight;
+        if (face2TotalWeight <= 0f)
+        {
+            bool useTeleportAttack = Random.value < attack1Chance;
+            return useTeleportAttack ? Attack1Sequence() : Attack2Sequence();
+        }
+
+        float face2Roll = Random.value * face2TotalWeight;
+        if (face2Roll < face2Attack1Weight)
+        {
+            return Attack1Sequence();
+        }
+
+        face2Roll -= face2Attack1Weight;
+        if (face2Roll < face2Attack2Weight)
+        {
+            return Attack2Sequence();
+        }
+
+        face2Roll -= face2Attack2Weight;
+        if (face2Roll < face2Attack3Weight)
+        {
+            return Attack3Sequence();
+        }
+
+        return Attack4Sequence();
     }
 
     IEnumerator Attack1Sequence()
@@ -516,9 +566,10 @@ public class BossController : MonoBehaviour
 
     void FireAttack3ProjectileRing(int waveIndex)
     {
-        if (bossProjectilePrefab == null)
+        BossProjectile projectilePrefab = CurrentAttack3ProjectilePrefab();
+        if (projectilePrefab == null)
         {
-            Debug.LogWarning($"{nameof(BossController)} cannot use Attack3 because Boss Projectile Prefab is missing.", this);
+            Debug.LogWarning($"{nameof(BossController)} cannot use Attack3 because the current face projectile prefab is missing.", this);
             return;
         }
 
@@ -532,7 +583,7 @@ public class BossController : MonoBehaviour
             float angle = waveRotation + Mathf.PI * 2f * i / projectileCount;
             Vector2 direction = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle)).normalized;
             Vector2 spawnPosition = center + direction * attack3ProjectileSpawnRadius;
-            BossProjectile projectile = Instantiate(bossProjectilePrefab, spawnPosition, Quaternion.identity);
+            BossProjectile projectile = Instantiate(projectilePrefab, spawnPosition, Quaternion.identity);
             IgnoreBossCollision(projectile);
             projectile.Launch(direction, attack3ProjectileForce);
         }
@@ -554,6 +605,66 @@ public class BossController : MonoBehaviour
                 Physics2D.IgnoreCollision(bossCollider, projectileCollider, true);
             }
         }
+    }
+
+    IEnumerator Attack4Sequence()
+    {
+        isAttacking = true;
+
+        SetPosition(homePosition);
+        PlayTeleportSound();
+        FacePlayer();
+
+        int repeatCount = Mathf.Max(1, attack4RepeatCount);
+        for (int i = 0; i < repeatCount; i++)
+        {
+            FacePlayer();
+            PlayAttack4Animation();
+            SpawnAttack4ThunderAtPlayer();
+
+            yield return new WaitForSeconds(GetAttack4Duration());
+
+            if (i < repeatCount - 1 && attack4TimeBetweenStrikes > 0f)
+            {
+                yield return new WaitForSeconds(attack4TimeBetweenStrikes);
+            }
+        }
+
+        PlayIdleAnimation();
+        isAttacking = false;
+        attackCoroutine = null;
+    }
+
+    void SpawnAttack4ThunderAtPlayer()
+    {
+        if (thunderPrefab == null)
+        {
+            Debug.LogWarning($"{nameof(BossController)} cannot use Attack4 because Thunder Prefab is missing.", this);
+            return;
+        }
+
+        if (playerTarget == null)
+        {
+            FindPlayer();
+        }
+
+        Vector3 targetPosition = playerTarget != null ? playerTarget.position : transform.position;
+        Vector3 spawnPosition = new Vector3(targetPosition.x, targetPosition.y, thunderPrefab.transform.position.z);
+        Thunder thunder = Instantiate(thunderPrefab, spawnPosition, Quaternion.identity);
+        CenterThunderEllipseOnPosition(thunder, targetPosition);
+        Destroy(thunder.gameObject, attack4ThunderLifetime);
+    }
+
+    void CenterThunderEllipseOnPosition(Thunder thunder, Vector3 targetPosition)
+    {
+        if (thunder == null)
+        {
+            return;
+        }
+
+        Vector3 ellipseCenter = thunder.transform.TransformPoint(thunder.damageEllipseOffset);
+        Vector3 correction = new Vector3(targetPosition.x - ellipseCenter.x, targetPosition.y - ellipseCenter.y, 0f);
+        thunder.transform.position += correction;
     }
 
     IEnumerator Attack2Sequence()
@@ -989,12 +1100,33 @@ public class BossController : MonoBehaviour
     void PlayAttack3Animation()
     {
         ApplyCurrentFaceAnimationClips();
-        if (TryPlayState(face1Attack3StateName))
+        if (TryPlayState(CurrentAttack3StateName()))
         {
             return;
         }
 
-        PlayClipOnIdleSlot(boss1Attack3Clip);
+        if (TryPlayState(sharedAttack3StateName))
+        {
+            return;
+        }
+
+        PlayClipOnIdleSlot(CurrentAttack3Clip());
+    }
+
+    void PlayAttack4Animation()
+    {
+        ApplyCurrentFaceAnimationClips();
+        if (TryPlayState(face2Attack4StateName))
+        {
+            return;
+        }
+
+        if (TryPlayState(sharedAttack4StateName))
+        {
+            return;
+        }
+
+        PlayClipOnIdleSlot(boss2Attack4Clip);
     }
 
     void PlayTransformAnimation()
@@ -1298,9 +1430,10 @@ public class BossController : MonoBehaviour
         OverrideClipSlot("Idle", currentFace == 1 ? boss1IdleClip : boss2IdleClip);
         OverrideClipSlot("Attack1", currentFace == 1 ? boss1Attack1Clip : boss2Attack1Clip);
         OverrideClipSlot("Attack2", currentFace == 1 ? boss1Attack2Clip : boss2Attack2Clip);
-        if (currentFace == 1)
+        OverrideClipSlot("Attack3", CurrentAttack3Clip());
+        if (currentFace == 2)
         {
-            OverrideClipSlot("Attack3", boss1Attack3Clip);
+            OverrideClipSlot("Attack4", boss2Attack4Clip);
         }
     }
 
@@ -1384,7 +1517,12 @@ public class BossController : MonoBehaviour
 
     float GetAttack3Duration()
     {
-        return GetClipDuration(boss1Attack3Clip, attack3FallbackDuration);
+        return GetClipDuration(CurrentAttack3Clip(), attack3FallbackDuration);
+    }
+
+    float GetAttack4Duration()
+    {
+        return GetClipDuration(boss2Attack4Clip, attack4FallbackDuration);
     }
 
     float GetClipDuration(AnimationClip clip, float fallbackDuration)
@@ -1425,6 +1563,21 @@ public class BossController : MonoBehaviour
     string CurrentAttack2StateName()
     {
         return currentFace == 1 ? face1Attack2StateName : face2Attack2StateName;
+    }
+
+    string CurrentAttack3StateName()
+    {
+        return currentFace == 1 ? face1Attack3StateName : face2Attack3StateName;
+    }
+
+    AnimationClip CurrentAttack3Clip()
+    {
+        return currentFace == 1 ? boss1Attack3Clip : boss2Attack3Clip;
+    }
+
+    BossProjectile CurrentAttack3ProjectilePrefab()
+    {
+        return currentFace == 1 ? bossProjectilePrefab : bossProjectile2Prefab;
     }
 
     Vector2 GetPosition()
@@ -1578,10 +1731,13 @@ public class BossController : MonoBehaviour
         boss2IdleClip = LoadBossClipIfMissing(boss2IdleClip, "Boss2Idle");
         boss2Attack1Clip = LoadBossClipIfMissing(boss2Attack1Clip, "Boss2Attack1");
         boss2Attack2Clip = LoadBossClipIfMissing(boss2Attack2Clip, "Boss2Attack2");
+        boss2Attack3Clip = LoadBossClipIfMissing(boss2Attack3Clip, "Boss2Attack3");
+        boss2Attack4Clip = LoadBossClipIfMissing(boss2Attack4Clip, "Boss2Attack4");
         bossTransformClip = LoadBossClipIfMissing(bossTransformClip, "BossTranform");
         bossDieClip = LoadBossClipIfMissing(bossDieClip, "BossDie");
         bossDieClip = LoadBossClipIfMissing(bossDieClip, "BossDIe");
         bossProjectilePrefab = LoadBossProjectilePrefabIfMissing(bossProjectilePrefab);
+        bossProjectile2Prefab = LoadBossProjectile2PrefabIfMissing(bossProjectile2Prefab);
     }
 
     AnimationClip LoadBossClipIfMissing(AnimationClip currentClip, string clipName)
@@ -1601,8 +1757,20 @@ public class BossController : MonoBehaviour
             return currentPrefab;
         }
 
-        GameObject prefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Prefabs/BossProjectile.prefab");
+        GameObject prefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Prefabs/PrefabsVersion1/BossProjectile.prefab");
         return prefab != null ? prefab.GetComponent<BossProjectile>() : null;
     }
+
+    BossProjectile LoadBossProjectile2PrefabIfMissing(BossProjectile currentPrefab)
+    {
+        if (currentPrefab != null)
+        {
+            return currentPrefab;
+        }
+
+        GameObject prefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Prefabs/PrefabsVersion1/BossProjectile2.prefab");
+        return prefab != null ? prefab.GetComponent<BossProjectile>() : null;
+    }
+
 #endif
 }
