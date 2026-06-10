@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ScriptsVersion1\UIHomeButtonController.cs" />
+    <Compile Include="Assets\Scripts\PauseMenuController.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\Projectile.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\PlayerController.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\BossController.cs" />
@@ -63,6 +64,7 @@
     <Compile Include="Assets\Scripts\ScriptsVersion1\BossAppearCanvasHandler.cs" />
     <Compile Include="Assets\Scripts\MenuButtonGroupHoverSound.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\GameAudioUtility.cs" />
+    <Compile Include="Assets\Scripts\PauseBoxButtonHoverController.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\UIDeathController.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\BatSpawnTrigger.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\NPCController.cs" />
