@@ -163,9 +163,14 @@ public class EnemyKillBlockUnlocker : MonoBehaviour
 
         SetBossVisible(true, true);
         BossController boss = GetBossController();
+        AgisBossController agisBoss = GetAgisBossController();
         if (boss != null)
         {
             boss.SetCombatEnabled(false);
+        }
+        if (agisBoss != null)
+        {
+            agisBoss.SetCombatEnabled(false);
         }
 
         yield return RunCameraAndPopupSequence(boss != null ? boss.transform : GetBossTransform());
@@ -173,6 +178,10 @@ public class EnemyKillBlockUnlocker : MonoBehaviour
         if (boss != null)
         {
             boss.SetCombatEnabled(true);
+        }
+        if (agisBoss != null)
+        {
+            agisBoss.SetCombatEnabled(true);
         }
 
         if (disablePlayerDuringBossAppear && player != null)
@@ -215,6 +224,12 @@ public class EnemyKillBlockUnlocker : MonoBehaviour
     {
         FindBossIfNeeded();
         return bossToShow != null ? bossToShow.GetComponent<BossController>() : null;
+    }
+
+    AgisBossController GetAgisBossController()
+    {
+        FindBossIfNeeded();
+        return bossToShow != null ? bossToShow.GetComponent<AgisBossController>() : null;
     }
 
     Transform GetBossTransform()

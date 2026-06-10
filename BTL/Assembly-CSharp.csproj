@@ -67,8 +67,10 @@
     <Compile Include="Assets\Scripts\ScriptsVersion1\BatSpawnTrigger.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\NPCController.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\UIButtonSoundController.cs" />
+    <Compile Include="Assets\Scripts\ScriptsVersion1\AgisBossController.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\SlimeController.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\BossUIHandle.cs" />
+    <Compile Include="Assets\Scripts\ScriptsVersion1\AgisBossUIHandle.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\EnemyController.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\BatController.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\MissionCanvasHandler.cs" />
