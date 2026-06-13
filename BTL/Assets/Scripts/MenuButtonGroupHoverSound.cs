@@ -7,8 +7,12 @@ public class MenuButtonGroupHoverSound : MonoBehaviour
 {
     [SerializeField] string firstMapButtonName = "First Map";
     [SerializeField] string secondMapButtonName = "Second Map";
+    [SerializeField] string thirdMapButtonName = "Third Map";
+    [SerializeField] string tutorialButtonName = "Tutorial";
     [SerializeField] string firstMapSceneName = "FirstMap";
     [SerializeField] string secondMapSceneName = "SecondMap";
+    [SerializeField] string thirdMapSceneName = "SampleScene";
+    [SerializeField] string tutorialSceneName = "TutorialScene";
     [SerializeField] Color hoverBackgroundColor = new Color(0.18f, 0.62f, 0.86f, 0.55f);
     [SerializeField] float hoverFadeDuration = 0.1f;
     [SerializeField] AudioSource audioSource;
@@ -45,6 +49,8 @@ public class MenuButtonGroupHoverSound : MonoBehaviour
             button.onClick.RemoveListener(PlayClickSound);
             button.onClick.RemoveListener(LoadFirstMap);
             button.onClick.RemoveListener(LoadSecondMap);
+            button.onClick.RemoveListener(LoadThirdMap);
+            button.onClick.RemoveListener(LoadTutorial);
 
             if (button.name == firstMapButtonName)
             {
@@ -53,6 +59,14 @@ public class MenuButtonGroupHoverSound : MonoBehaviour
             else if (button.name == secondMapButtonName)
             {
                 button.onClick.AddListener(LoadSecondMap);
+            }
+            else if (button.name == thirdMapButtonName)
+            {
+                button.onClick.AddListener(LoadThirdMap);
+            }
+            else if (button.name == tutorialButtonName)
+            {
+                button.onClick.AddListener(LoadTutorial);
             }
             else
             {
@@ -135,6 +149,16 @@ public class MenuButtonGroupHoverSound : MonoBehaviour
     void LoadSecondMap()
     {
         LoadScene(secondMapSceneName);
+    }
+
+    void LoadThirdMap()
+    {
+        LoadScene(thirdMapSceneName);
+    }
+
+    void LoadTutorial()
+    {
+        LoadScene(tutorialSceneName);
     }
 
     void LoadScene(string sceneName)
