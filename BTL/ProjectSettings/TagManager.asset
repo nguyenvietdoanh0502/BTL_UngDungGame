@@ -50,5 +50,11 @@ TagManager:
   - name: x2
     uniqueID: 390710945
     locked: 0
+  - name: enemy
+    uniqueID: 2285041281
+    locked: 0
+  - name: Player
+    uniqueID: 2438161023
+    locked: 0
   m_RenderingLayers:
   - Default
