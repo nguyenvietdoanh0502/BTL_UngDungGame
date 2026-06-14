@@ -133654,6 +133654,18 @@ PrefabInstance:
       propertyPath: bossArenaExitBlock
       value: 
       objectReference: {fileID: 210510780}
+    - target: {fileID: 8550725814589062926, guid: 1e3eac5cd8126d24ea9d3a41a94e5f89, type: 3}
+      propertyPath: detectionRange
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8550725814589062926, guid: 1e3eac5cd8126d24ea9d3a41a94e5f89, type: 3}
+      propertyPath: useBossArenaEntryLine
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8550725814589062926, guid: 1e3eac5cd8126d24ea9d3a41a94e5f89, type: 3}
+      propertyPath: bossArenaEntryRange
+      value: 2.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

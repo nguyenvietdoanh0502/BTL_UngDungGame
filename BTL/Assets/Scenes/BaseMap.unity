@@ -3721,7 +3721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3151c732fab03c4a9dce9664328f5d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MapTrans
-  targetSceneName: FirstMap
+  targetSceneName: SampleScene
 --- !u!61 &270804685
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4252,7 +4252,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4493882787177981448, guid: a1fe6468899347644a44b3077af0893b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6098621122772761349, guid: a1fe6468899347644a44b3077af0893b, type: 3}
       propertyPath: m_Name
@@ -133046,7 +133046,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4493882787177981448, guid: a1fe6468899347644a44b3077af0893b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6098621122772761349, guid: a1fe6468899347644a44b3077af0893b, type: 3}
       propertyPath: m_Name
@@ -141561,7 +141561,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4493882787177981448, guid: a1fe6468899347644a44b3077af0893b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6098621122772761349, guid: a1fe6468899347644a44b3077af0893b, type: 3}
       propertyPath: m_Name
@@ -141627,7 +141627,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4493882787177981448, guid: a1fe6468899347644a44b3077af0893b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6098621122772761349, guid: a1fe6468899347644a44b3077af0893b, type: 3}
       propertyPath: m_Name

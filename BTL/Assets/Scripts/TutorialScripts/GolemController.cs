@@ -34,7 +34,18 @@ public class GolemController : MonoBehaviour
     public GameObject handProjectilePrefab;
     public SpriteRenderer laserSpriteRenderer;
 
+    [Header("Sound")]
+    public AudioClip meleeAttackSound;
+    [Range(0f, 1f)] public float meleeAttackSoundVolume = 1f;
+    public AudioClip handThrowSound;
+    [Range(0f, 1f)] public float handThrowSoundVolume = 1f;
+    public AudioClip laserShootSound;
+    [Range(0f, 1f)] public float laserShootSoundVolume = 1f;
+    public AudioClip deathSound;
+    [Range(0f, 1f)] public float deathSoundVolume = 1f;
+
     private Animator animator;
+    private AudioSource audioSource;
     private bool isAttacking = false;
     private bool isDead = false;
     private Coroutine attackCoroutine;
@@ -43,6 +54,14 @@ public class GolemController : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
+
+        audioSource.playOnAwake = false;
+        audioSource.spatialBlend = 0f;
         currentHealth = maxHealth;
 
         // Tự động tìm Player nếu chưa được kéo thả vào Inspector
@@ -206,6 +225,7 @@ public class GolemController : MonoBehaviour
 
         // Kích hoạt mũi tên chuyển sang Die
         animator.SetBool("Death", true);
+        PlaySound(deathSound, deathSoundVolume);
         DeactivateLaser();
 
         // Dừng lập tức mọi di chuyển vật lý
@@ -229,6 +249,7 @@ public class GolemController : MonoBehaviour
 
     public void ActivateLaser()
     {
+        PlaySound(laserShootSound, laserShootSoundVolume);
         if (laserBeamObj != null) laserBeamObj.SetActive(true);
     }
 
@@ -239,6 +260,8 @@ public class GolemController : MonoBehaviour
 
     public void ShootHandProjectile()
     {
+        PlaySound(handThrowSound, handThrowSoundVolume);
+
         if (handProjectilePrefab != null && firePoint != null)
         {
             // 1. Tạo ra viên đạn và lưu vào biến 'bullet'
@@ -260,6 +283,8 @@ public class GolemController : MonoBehaviour
     // Gắn Animation Event vào frame vung kiếm/đấm trúng người chơi trong clip "melee"
     public void DealMeleeDamage()
     {
+        PlaySound(meleeAttackSound, meleeAttackSoundVolume);
+
         Collider2D bossCollider = GetComponent<Collider2D>();
         Vector2 bossCenter = bossCollider != null ? (Vector2)bossCollider.bounds.center : (Vector2)transform.position;
         float distance = Vector2.Distance(bossCenter, player.position);
@@ -272,5 +297,15 @@ public class GolemController : MonoBehaviour
                 playerScript.changeHealth(-meleeDamage);
             }
         }
+    }
+
+    void PlaySound(AudioClip clip, float volume)
+    {
+        if (clip == null || audioSource == null)
+        {
+            return;
+        }
+
+        audioSource.PlayOneShot(clip, volume);
     }
 }
