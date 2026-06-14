@@ -824,4 +824,12 @@ public class PlayerController : MonoBehaviour
         Projectile projectile= projectileObject.GetComponent<Projectile>();
         projectile.Launch(launchDirection,1000);
     }
+    public void RefillPotions()
+    {
+        // Đặt lại số bình máu bằng với mức tối đa (maxHealUses = 3)
+        remainingHealUses = maxHealUses;
+
+        // Cập nhật lại UI hiển thị 3 bình máu trên màn hình
+        UpdateHealUseImages();
+    }
 }

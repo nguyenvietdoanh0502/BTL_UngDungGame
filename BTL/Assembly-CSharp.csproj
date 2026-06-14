@@ -50,23 +50,36 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ScriptsVersion1\UIHomeButtonController.cs" />
+    <Compile Include="Assets\Scripts\TutorialScripts\PlayerDeath.cs" />
+    <Compile Include="Assets\Scripts\TutorialScripts\TutorialAction.cs" />
     <Compile Include="Assets\Scripts\PauseMenuController.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\Projectile.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\TutorialScripts\TutorialManager.cs" />
+    <Compile Include="Assets\Scripts\TutorialScripts\GolemProjectile.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\BossController.cs" />
     <Compile Include="Assets\Scripts\MenuButtonHoverEffect.cs" />
     <Compile Include="Assets\Scripts\MenuHandle.cs" />
+    <Compile Include="Assets\Scripts\TutorialScripts\LaserTrap.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\BossProjectile.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\EnemyKillBlockUnlocker.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\SlimeSpawnTrigger.cs" />
+    <Compile Include="Assets\Scripts\TutorialScripts\PlayerDeathListener.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\UIHealthBarHandle.cs" />
+    <Compile Include="Assets\Scripts\TutorialScripts\GolemEvent.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\Thunder.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\BossAppearCanvasHandler.cs" />
     <Compile Include="Assets\Scripts\MenuButtonGroupHoverSound.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\GameAudioUtility.cs" />
+    <Compile Include="Assets\Scripts\TutorialScripts\GolemUIHandler.cs" />
+    <Compile Include="Assets\Scripts\TutorialScripts\GolemLaser.cs" />
+    <Compile Include="Assets\Scripts\TutorialScripts\GolemController.cs" />
     <Compile Include="Assets\Scripts\PauseBoxButtonHoverController.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\UIDeathController.cs" />
+    <Compile Include="Assets\Scripts\TutorialScripts\RemainHeal.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\BatSpawnTrigger.cs" />
+    <Compile Include="Assets\Scripts\MapTrans.cs" />
+    <Compile Include="Assets\Scripts\TutorialScripts\TutorialZone.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\NPCController.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\UIButtonSoundController.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\AgisBossController.cs" />
@@ -76,6 +89,31 @@
     <Compile Include="Assets\Scripts\ScriptsVersion1\EnemyController.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\BatController.cs" />
     <Compile Include="Assets\Scripts\ScriptsVersion1\MissionCanvasHandler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
