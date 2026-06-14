@@ -23,6 +23,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BaseMap.unity
     guid: 07a92cee62a55b64789ffe24567e0306
+  - enabled: 1
+    path: Assets/Scenes/KnightDefeat.unity
+    guid: f2b30a0d9c205de41bef5e8c5d44be69
+  - enabled: 1
+    path: Assets/Scenes/GolemDefeat.unity
+    guid: ef92d8f2133117f44a1e85dee56fb955
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
