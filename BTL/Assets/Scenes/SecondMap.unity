@@ -16225,8 +16225,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06258f416b8d2bb4398610c9d5db3526, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyKillBlockUnlocker
-  requiredBatKills: 1
-  requiredSlimeKills: 1
+  requiredBatKills: 10
+  requiredSlimeKills: 10
   blockToHide: {fileID: 877670262}
   bossToShow: {fileID: 1782787829}
   hideBossUntilMissionComplete: 1

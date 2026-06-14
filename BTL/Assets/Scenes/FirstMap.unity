@@ -40534,17 +40534,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59006ce3f994bb947b94bb8214d1b78d, type: 3}
---- !u!114 &757923527 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 962329992231787104, guid: 59d1aaac51c7f0347a8813540fce35a2, type: 3}
-  m_PrefabInstance: {fileID: 6923148754756436796}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1001 &759798961
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44712,41 +44701,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1847922801263479719, guid: f4b37958b36146841a0a4edc7ade0d56, type: 3}
   m_PrefabInstance: {fileID: 531851816258029492}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &931175298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 931175293}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c312cf5e3e0f264bac2901e68e9e2d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::UIHomeButtonController
-  homeButton: {fileID: 0}
-  homeButtonName: Home
-  autoFindHomeButton: 1
-  menuSceneName: Menu
-  menuScenePath: Assets/Scenes/Menu.unity
---- !u!114 &931175299
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 931175293}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3ea8913221106f4f9157cc7242ce49f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSoundController
-  audioSource: {fileID: 0}
-  hoverSound: {fileID: 8300000, guid: e0557699b10bce04ab9272985e5fd702, type: 3}
-  clickSound: {fileID: 8300000, guid: 8f1340dcde3be06478be4e243b608010, type: 3}
-  hoverSoundVolume: 0.5
-  clickSoundVolume: 0.3
-  persistClickSoundAcrossScene: 1
 --- !u!4 &931260823 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: e9deac246efeef14daa43fc5d0365d30, type: 3}
@@ -123553,56 +123507,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6846304085616735798, guid: 59d1aaac51c7f0347a8813540fce35a2, type: 3}
   m_PrefabInstance: {fileID: 6923148754756436796}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1800709756
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1800709751}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e0190bd759c3b1439f1bce6fd19a860, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::UIDeathController
-  replayButton: {fileID: 757923527}
-  replayButtonName: Replay
-  autoFindReplayButton: 1
---- !u!114 &1800709761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1800709751}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c312cf5e3e0f264bac2901e68e9e2d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::UIHomeButtonController
-  homeButton: {fileID: 0}
-  homeButtonName: Home
-  autoFindHomeButton: 1
-  menuSceneName: Menu
-  menuScenePath: Assets/Scenes/Menu.unity
---- !u!114 &1800709762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1800709751}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3ea8913221106f4f9157cc7242ce49f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::UIButtonSoundController
-  audioSource: {fileID: 0}
-  hoverSound: {fileID: 8300000, guid: e0557699b10bce04ab9272985e5fd702, type: 3}
-  clickSound: {fileID: 8300000, guid: 8f1340dcde3be06478be4e243b608010, type: 3}
-  hoverSoundVolume: 0.5
-  clickSoundVolume: 0.3
-  persistClickSoundAcrossScene: 1
 --- !u!4 &1801812350 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8587022202595533505, guid: 612564e4562cef948974d9e4d19090ee, type: 3}
@@ -132333,69 +132237,9 @@ PrefabInstance:
       value: Warrior
       objectReference: {fileID: 0}
     - target: {fileID: 6984786311984589464, guid: a173d10eb86c3a648bc645930fd421ac, type: 3}
-      propertyPath: hurtSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 7051552e349b3594da5f884e36700161, type: 3}
-    - target: {fileID: 6984786311984589464, guid: a173d10eb86c3a648bc645930fd421ac, type: 3}
-      propertyPath: maxHealth
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6984786311984589464, guid: a173d10eb86c3a648bc645930fd421ac, type: 3}
-      propertyPath: deathSound
-      value: 
-      objectReference: {fileID: 8300000, guid: c94120caeaae0344b85351ca3c5ab1d2, type: 3}
-    - target: {fileID: 6984786311984589464, guid: a173d10eb86c3a648bc645930fd421ac, type: 3}
-      propertyPath: healAmount
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 6984786311984589464, guid: a173d10eb86c3a648bc645930fd421ac, type: 3}
-      propertyPath: launchDelay
-      value: 0.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 6984786311984589464, guid: a173d10eb86c3a648bc645930fd421ac, type: 3}
-      propertyPath: moveLoopSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 5357b600d0fe0fb4c95b77601655fd1a, type: 3}
-    - target: {fileID: 6984786311984589464, guid: a173d10eb86c3a648bc645930fd421ac, type: 3}
       propertyPath: uiDeathCanvas
       value: 
       objectReference: {fileID: 1800709751}
-    - target: {fileID: 6984786311984589464, guid: a173d10eb86c3a648bc645930fd421ac, type: 3}
-      propertyPath: hurtSoundVolume
-      value: 0.314
-      objectReference: {fileID: 0}
-    - target: {fileID: 6984786311984589464, guid: a173d10eb86c3a648bc645930fd421ac, type: 3}
-      propertyPath: deathSoundVolume
-      value: 0.714
-      objectReference: {fileID: 0}
-    - target: {fileID: 6984786311984589464, guid: a173d10eb86c3a648bc645930fd421ac, type: 3}
-      propertyPath: guardStaminaCost
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 6984786311984589464, guid: a173d10eb86c3a648bc645930fd421ac, type: 3}
-      propertyPath: projectilePrefab
-      value: 
-      objectReference: {fileID: 2327479261220040641, guid: b9c9b9c2dd562e74a93998e347039ab5, type: 3}
-    - target: {fileID: 6984786311984589464, guid: a173d10eb86c3a648bc645930fd421ac, type: 3}
-      propertyPath: GuardAction.m_Name
-      value: Guard
-      objectReference: {fileID: 0}
-    - target: {fileID: 6984786311984589464, guid: a173d10eb86c3a648bc645930fd421ac, type: 3}
-      propertyPath: healingSoundVolume
-      value: 0.364
-      objectReference: {fileID: 0}
-    - target: {fileID: 6984786311984589464, guid: a173d10eb86c3a648bc645930fd421ac, type: 3}
-      propertyPath: moveLoopSoundVolume
-      value: 0.317
-      objectReference: {fileID: 0}
-    - target: {fileID: 6984786311984589464, guid: a173d10eb86c3a648bc645930fd421ac, type: 3}
-      propertyPath: guardBlockSoundVolume
-      value: 0.263
-      objectReference: {fileID: 0}
-    - target: {fileID: 6984786311984589464, guid: a173d10eb86c3a648bc645930fd421ac, type: 3}
-      propertyPath: healUseImages.Array.size
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 6984786311984589464, guid: a173d10eb86c3a648bc645930fd421ac, type: 3}
       propertyPath: 'healUseImages.Array.data[0]'
       value: 
@@ -132621,13 +132465,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1847922801263479719, guid: f4b37958b36146841a0a4edc7ade0d56, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 931175298}
-    - targetCorrespondingSourceObject: {fileID: 1847922801263479719, guid: f4b37958b36146841a0a4edc7ade0d56, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 931175299}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4b37958b36146841a0a4edc7ade0d56, type: 3}
 --- !u!1001 &2592988797019892123
 PrefabInstance:
@@ -133906,16 +133744,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6846304085616735798, guid: 59d1aaac51c7f0347a8813540fce35a2, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1800709756}
-    - targetCorrespondingSourceObject: {fileID: 6846304085616735798, guid: 59d1aaac51c7f0347a8813540fce35a2, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1800709761}
-    - targetCorrespondingSourceObject: {fileID: 6846304085616735798, guid: 59d1aaac51c7f0347a8813540fce35a2, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1800709762}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59d1aaac51c7f0347a8813540fce35a2, type: 3}
 --- !u!1001 &6936480356283397355
 PrefabInstance:
