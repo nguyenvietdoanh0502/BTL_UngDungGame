@@ -1,0 +1,294 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|f:\\unityproject\\btl_ungdunggame\\btl\\assets\\scripts\\tutorialscripts\\remainheal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorialscripts\\remainheal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|f:\\unityproject\\btl_ungdunggame\\btl\\assets\\scripts\\scriptsversion1\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptsversion1\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|F:\\UnityProject\\BTL_UngDungGame\\BTL\\assets\\scripts\\tutorialscripts\\playerdeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorialscripts\\playerdeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|F:\\UnityProject\\BTL_UngDungGame\\BTL\\assets\\scripts\\tutorialscripts\\playerdeathlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorialscripts\\playerdeathlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|F:\\UnityProject\\BTL_UngDungGame\\BTL\\assets\\scripts\\tutorialscripts\\lasertrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorialscripts\\lasertrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|F:\\UnityProject\\BTL_UngDungGame\\BTL\\assets\\scripts\\tutorialscripts\\golemevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorialscripts\\golemevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|F:\\UnityProject\\BTL_UngDungGame\\BTL\\assets\\scripts\\scriptsversion1\\enemykillblockunlocker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptsversion1\\enemykillblockunlocker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|F:\\UnityProject\\BTL_UngDungGame\\BTL\\assets\\scripts\\tutorialscripts\\golemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorialscripts\\golemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|F:\\UnityProject\\BTL_UngDungGame\\BTL\\assets\\scripts\\tutorialscripts\\golemprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorialscripts\\golemprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|F:\\UnityProject\\BTL_UngDungGame\\BTL\\assets\\scripts\\tutorialscripts\\tutorialaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorialscripts\\tutorialaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|F:\\UnityProject\\BTL_UngDungGame\\BTL\\assets\\scripts\\tutorialscripts\\tutorialzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorialscripts\\tutorialzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|F:\\UnityProject\\BTL_UngDungGame\\BTL\\assets\\scripts\\tutorialscripts\\tutorialmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorialscripts\\tutorialmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|F:\\UnityProject\\BTL_UngDungGame\\BTL\\assets\\scripts\\tutorialscripts\\golemlaser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorialscripts\\golemlaser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|F:\\UnityProject\\BTL_UngDungGame\\BTL\\assets\\scripts\\scriptsversion1\\bossprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptsversion1\\bossprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|F:\\UnityProject\\BTL_UngDungGame\\BTL\\assets\\scripts\\tutorialscripts\\golemuihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tutorialscripts\\golemuihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|F:\\UnityProject\\BTL_UngDungGame\\BTL\\assets\\scripts\\scriptsversion1\\bossuihandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptsversion1\\bossuihandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|F:\\UnityProject\\BTL_UngDungGame\\BTL\\assets\\scripts\\scriptsversion1\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5C49B1-E55E-1503-2DBA-DA5128448C38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptsversion1\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RemainHeal.cs",
+              "DocumentMoniker": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\TutorialScripts\\RemainHeal.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TutorialScripts\\RemainHeal.cs",
+              "ToolTip": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\TutorialScripts\\RemainHeal.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TutorialScripts\\RemainHeal.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T10:52:23.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerDeath.cs",
+              "DocumentMoniker": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\TutorialScripts\\PlayerDeath.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TutorialScripts\\PlayerDeath.cs",
+              "ToolTip": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\TutorialScripts\\PlayerDeath.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TutorialScripts\\PlayerDeath.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T10:30:23.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerDeathListener.cs",
+              "DocumentMoniker": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\TutorialScripts\\PlayerDeathListener.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TutorialScripts\\PlayerDeathListener.cs",
+              "ToolTip": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\TutorialScripts\\PlayerDeathListener.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TutorialScripts\\PlayerDeathListener.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T10:30:17.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GolemEvent.cs",
+              "DocumentMoniker": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\TutorialScripts\\GolemEvent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TutorialScripts\\GolemEvent.cs",
+              "ToolTip": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\TutorialScripts\\GolemEvent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TutorialScripts\\GolemEvent.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAowKoAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T07:47:53.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnemyKillBlockUnlocker.cs",
+              "DocumentMoniker": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\ScriptsVersion1\\EnemyKillBlockUnlocker.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptsVersion1\\EnemyKillBlockUnlocker.cs",
+              "ToolTip": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\ScriptsVersion1\\EnemyKillBlockUnlocker.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptsVersion1\\EnemyKillBlockUnlocker.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-14T05:02:35.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LaserTrap.cs",
+              "DocumentMoniker": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\TutorialScripts\\LaserTrap.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TutorialScripts\\LaserTrap.cs",
+              "ToolTip": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\TutorialScripts\\LaserTrap.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TutorialScripts\\LaserTrap.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwB8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T22:57:24.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TutorialZone.cs",
+              "DocumentMoniker": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\TutorialScripts\\TutorialZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TutorialScripts\\TutorialZone.cs",
+              "ToolTip": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\TutorialScripts\\TutorialZone.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TutorialScripts\\TutorialZone.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwCMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T21:02:38.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TutorialManager.cs",
+              "DocumentMoniker": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\TutorialScripts\\TutorialManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TutorialScripts\\TutorialManager.cs",
+              "ToolTip": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\TutorialScripts\\TutorialManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TutorialScripts\\TutorialManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwG4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T21:02:21.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TutorialAction.cs",
+              "DocumentMoniker": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\TutorialScripts\\TutorialAction.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TutorialScripts\\TutorialAction.cs",
+              "ToolTip": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\TutorialScripts\\TutorialAction.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TutorialScripts\\TutorialAction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T21:00:03.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GolemLaser.cs",
+              "DocumentMoniker": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\TutorialScripts\\GolemLaser.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TutorialScripts\\GolemLaser.cs",
+              "ToolTip": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\TutorialScripts\\GolemLaser.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TutorialScripts\\GolemLaser.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T19:50:51.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GolemUIHandler.cs",
+              "DocumentMoniker": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\TutorialScripts\\GolemUIHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TutorialScripts\\GolemUIHandler.cs",
+              "ToolTip": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\TutorialScripts\\GolemUIHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TutorialScripts\\GolemUIHandler.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAIwIcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T18:50:42.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BossUIHandle.cs",
+              "DocumentMoniker": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\ScriptsVersion1\\BossUIHandle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptsVersion1\\BossUIHandle.cs",
+              "ToolTip": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\ScriptsVersion1\\BossUIHandle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptsVersion1\\BossUIHandle.cs",
+              "ViewState": "AgIAANkAAAAAAAAAAAAcwOUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T18:49:46.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Projectile.cs",
+              "DocumentMoniker": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\ScriptsVersion1\\Projectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptsVersion1\\Projectile.cs",
+              "ToolTip": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\ScriptsVersion1\\Projectile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptsVersion1\\Projectile.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAADwvzEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T17:26:25.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\ScriptsVersion1\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptsVersion1\\PlayerController.cs",
+              "ToolTip": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\ScriptsVersion1\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptsVersion1\\PlayerController.cs",
+              "ViewState": "AgIAADoDAAAAAAAAAAA1wEEDAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T16:38:28.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GolemProjectile.cs",
+              "DocumentMoniker": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\TutorialScripts\\GolemProjectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TutorialScripts\\GolemProjectile.cs",
+              "ToolTip": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\TutorialScripts\\GolemProjectile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TutorialScripts\\GolemProjectile.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T16:36:06.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GolemController.cs",
+              "DocumentMoniker": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\TutorialScripts\\GolemController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TutorialScripts\\GolemController.cs",
+              "ToolTip": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\TutorialScripts\\GolemController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TutorialScripts\\GolemController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwCoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T15:40:30.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BossProjectile.cs",
+              "DocumentMoniker": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\ScriptsVersion1\\BossProjectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptsVersion1\\BossProjectile.cs",
+              "ToolTip": "F:\\UnityProject\\BTL_UngDungGame\\BTL\\Assets\\Scripts\\ScriptsVersion1\\BossProjectile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptsVersion1\\BossProjectile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T06:49:24.689Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

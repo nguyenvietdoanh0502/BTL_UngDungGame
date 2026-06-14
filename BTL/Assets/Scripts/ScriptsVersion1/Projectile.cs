@@ -36,9 +36,16 @@ public class Projectile : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision)
     {
         BatController bat = collision.GetComponent<BatController>();
+        GolemController golem = collision.GetComponent<GolemController>();
         if (bat != null)
         {
             bat.TakeDamage(damageAmount);
+            Destroy(gameObject);
+            return;
+        }
+        else if (golem != null)
+        {
+            golem.TakeDamage(damageAmount);
             Destroy(gameObject);
             return;
         }
