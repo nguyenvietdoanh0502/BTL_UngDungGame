@@ -39,6 +39,9 @@ public class GolemEvent : MonoBehaviour
     public GameObject dialogCanvas;        // Canvas hộp thoại kể chuyện
     public string storySceneName;          // Tên Scene tiếp theo
     public CinemachineImpulseSource impulseSource;
+    [Header("7. Âm Thanh Boss")]
+    public AudioSource bgmAudioSource; // Nguồn phát nhạc nền
+    public AudioClip bossMusic;        // File nhạc dồn dập khi đánh Boss
 
     private bool isActivated = false;
     private bool isCompleted = false;
@@ -84,6 +87,14 @@ public class GolemEvent : MonoBehaviour
                 barrier.SetActive(true);
             }
 
+        // BẬT NHẠC KỊCH TÍNH
+        if (bgmAudioSource != null && bossMusic != null)
+        {
+            bgmAudioSource.clip = bossMusic;
+            bgmAudioSource.loop = true; // Lặp lại nhạc liên tục trong lúc đánh
+            bgmAudioSource.Play();
+        }
+
         if (spawnEffectPrefab != null && spawnPoint != null)
         {
             GameObject effect = Instantiate(spawnEffectPrefab, spawnPoint.position, Quaternion.identity);
@@ -126,6 +137,11 @@ public class GolemEvent : MonoBehaviour
     IEnumerator BossDeathSequence()
     {
         // 1. Tắt các UI không cần thiết
+        if (bgmAudioSource != null)
+        {
+            bgmAudioSource.Stop();
+        }
+
         if (TutorialManager.Instance != null) TutorialManager.Instance.HideInstruction();
         if (bossHealthCanvas != null) bossHealthCanvas.SetActive(false);
 
