@@ -321,7 +321,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -855298285791758126, guid: dc8090e89ad902249ad99d1b05ef8859, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -946,7 +946,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -855298285791758126, guid: 4f2d193ea34fab343b37dc6ac7d03175, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1100,7 +1100,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -855298285791758126, guid: 9f9ad68eb16461c4a8cf731dc4c719fb, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1452,7 +1452,7 @@ MonoBehaviour:
   - {fileID: 685716744}
   - {fileID: 66200907}
   - {fileID: 559799752}
-  fadeDuration: 2
+  fadeDuration: 1
   nextSceneName: BaseMap
   bgmSource: {fileID: 1635486559}
   storyBGM: {fileID: 8300000, guid: c8fb2e664c68afe458c719e6b5dab727, type: 3}

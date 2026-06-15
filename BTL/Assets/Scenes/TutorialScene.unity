@@ -7609,8 +7609,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c523e015bffe93d46a4b32da482385f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TutorialZone
-  instructionText: 
-  customPanel: {fileID: 1829363470}
+  instructionText: '!!!!!!!!!!!!!!!!!!!!!!!!!'
+  customPanel: {fileID: 0}
   customInstructionText: {fileID: 0}
   customProgressText: {fileID: 0}
   barrierObjects:
