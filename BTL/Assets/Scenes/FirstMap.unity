@@ -134243,6 +134243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseBox
       objectReference: {fileID: 0}
+    - target: {fileID: 3413826258406587251, guid: aa212fae9a3f0b04ea1cbb812e779b3d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7434979112266231292, guid: aa212fae9a3f0b04ea1cbb812e779b3d, type: 3}
       propertyPath: m_Pivot.x
       value: 0
