@@ -48,4 +48,4 @@ MonoBehaviour:
   spawnCount: 4
   triggerDistance: 8
   spawnRadius: 2.5
-  waitForMissionAccepted: 1
+  waitForMissionAccepted: 0
