@@ -21,6 +21,21 @@ public class AgisBossController : MonoBehaviour
     [Header("Death")]
     public float deathDestroyDelay = 0f;
 
+    [Header("Background Music")]
+    [Tooltip("Drag the boss background music clip here")]
+    public AudioClip bossMusic;
+    [Range(0f, 1f)]
+    public float musicVolume = 0.5f;
+    public bool loopMusic = true;
+
+    AudioSource musicSource;
+
+    [Header("SFX")]
+    [Tooltip("Drag the attack sound clip here")]
+    public AudioClip attackSound;
+    [Range(0f, 1f)]
+    public float attackSoundVolume = 0.5f;
+
     [Header("Win UI")]
     public GameObject uiWinCanvas;
     public string uiWinCanvasName = "UIWin";
@@ -43,11 +58,42 @@ public class AgisBossController : MonoBehaviour
         currentHealth = maxHealth;
         bossCollider = GetComponent<Collider2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+
+        musicSource = GetComponent<AudioSource>();
+        if (musicSource == null)
+        {
+            musicSource = gameObject.AddComponent<AudioSource>();
+        }
     }
 
     void Start()
     {
         FindPlayer();
+        PlayBackgroundMusic();
+    }
+
+    void PlayBackgroundMusic()
+    {
+        if (bossMusic == null)
+        {
+            return;
+        }
+
+        if (musicSource == null)
+        {
+            musicSource = GetComponent<AudioSource>();
+            if (musicSource == null)
+            {
+                musicSource = gameObject.AddComponent<AudioSource>();
+            }
+        }
+
+        musicSource.clip = bossMusic;
+        musicSource.volume = musicVolume;
+        musicSource.loop = loopMusic;
+        musicSource.playOnAwake = false;
+        musicSource.spatialBlend = 0f; // 2D Sound for background music
+        musicSource.Play();
     }
 
     void Update()
@@ -114,6 +160,8 @@ public class AgisBossController : MonoBehaviour
             return;
         }
 
+        PlayAttackSound();
+
         for (int i = 0; i < count; i++)
         {
             float angle = angleStep * i + waveRotation;
@@ -123,6 +171,14 @@ public class AgisBossController : MonoBehaviour
             BossProjectile projectile = Instantiate(projectilePrefab, spawnPosition, Quaternion.identity);
             IgnoreBossCollision(projectile);
             projectile.Launch(direction, projectileForce);
+        }
+    }
+
+    void PlayAttackSound()
+    {
+        if (attackSound != null && musicSource != null)
+        {
+            musicSource.PlayOneShot(attackSound, attackSoundVolume);
         }
     }
 
@@ -233,6 +289,11 @@ public class AgisBossController : MonoBehaviour
         }
 
         isDead = true;
+
+        if (musicSource != null)
+        {
+            musicSource.Stop();
+        }
 
         if (attackCoroutine != null)
         {
@@ -360,6 +421,12 @@ public class AgisBossController : MonoBehaviour
         projectileSpawnRadius = Mathf.Max(0f, projectileSpawnRadius);
         firstWaveDelay = Mathf.Max(0f, firstWaveDelay);
         deathDestroyDelay = Mathf.Max(0f, deathDestroyDelay);
+
+        if (musicSource != null)
+        {
+            musicSource.volume = musicVolume;
+            musicSource.loop = loopMusic;
+        }
     }
 
     void OnDrawGizmosSelected()

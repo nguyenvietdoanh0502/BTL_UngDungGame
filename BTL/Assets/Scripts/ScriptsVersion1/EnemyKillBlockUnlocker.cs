@@ -51,6 +51,14 @@ public class EnemyKillBlockUnlocker : MonoBehaviour
 
     void Awake()
     {
+        string sceneName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+        if (sceneName == "FirstMap" || sceneName == "SecondMap")
+        {
+            batKills = 0;
+            slimeKills = 0;
+            isMissionCompleted = false;
+        }
+
         if (blockToHide == null)
         {
             blockToHide = gameObject;
